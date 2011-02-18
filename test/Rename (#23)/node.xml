@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="Rename"/>
+<config key="model">
+<config key="all_columns">
+<config key="Year">
+<entry key="old_column_name" type="xstring" value="Year"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Country Name">
+<entry key="old_column_name" type="xstring" value="Country Name"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Country Code">
+<entry key="old_column_name" type="xstring" value="Country Code"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Adolescent fertility rate (births per 1,000 women ages 15-19)">
+<entry key="old_column_name" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Agriculture, value added (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Agriculture, value added (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Exports of goods and services (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Exports of goods and services (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Fertility rate, total (births per woman)">
+<entry key="old_column_name" type="xstring" value="Fertility rate, total (births per woman)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Foreign direct investment, net inflows (BoP, current US$)">
+<entry key="old_column_name" type="xstring" value="Foreign direct investment, net inflows (BoP, current US$)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="GDP (current US$)">
+<entry key="old_column_name" type="xstring" value="GDP (current US$)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="GDP growth (annual %)">
+<entry key="old_column_name" type="xstring" value="GDP growth (annual %)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="GNI per capita, Atlas method (current US$)">
+<entry key="old_column_name" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="GNI per capita, PPP (current international $)">
+<entry key="old_column_name" type="xstring" value="GNI per capita, PPP (current international $)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="GNI, Atlas method (current US$)">
+<entry key="old_column_name" type="xstring" value="GNI, Atlas method (current US$)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="GNI, PPP (current international $)">
+<entry key="old_column_name" type="xstring" value="GNI, PPP (current international $)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Immunization, measles (% of children ages 12-23 months)">
+<entry key="old_column_name" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Imports of goods and services (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Imports of goods and services (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Industry, value added (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Industry, value added (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Inflation, GDP deflator (annual %)">
+<entry key="old_column_name" type="xstring" value="Inflation, GDP deflator (annual %)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Internet users (per 100 people)">
+<entry key="old_column_name" type="xstring" value="Internet users (per 100 people)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Life expectancy at birth, total (years)">
+<entry key="old_column_name" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Merchandise trade (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Merchandise trade (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Military expenditure (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Military expenditure (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Mobile cellular subscriptions (per 100 people)">
+<entry key="old_column_name" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Mortality rate, under-5 (per 1,000)">
+<entry key="old_column_name" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Population growth (annual %)">
+<entry key="old_column_name" type="xstring" value="Population growth (annual %)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Population, total">
+<entry key="old_column_name" type="xstring" value="Population, total"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Prevalence of HIV, total (% of population ages 15-49)">
+<entry key="old_column_name" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Renewable internal freshwater resources per capita (cubic meters)">
+<entry key="old_column_name" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Services, etc., value added (% of GDP)">
+<entry key="old_column_name" type="xstring" value="Services, etc., value added (% of GDP)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Surface area (sq. km)">
+<entry key="old_column_name" type="xstring" value="Surface area (sq. km)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Time required to start a business (days)">
+<entry key="old_column_name" type="xstring" value="Time required to start a business (days)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Workers' remittances and compensation of employees, received (current US$)">
+<entry key="old_column_name" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
+<entry key="new_column_name" type="xstring" isnull="true" value=""/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="Cluster">
+<entry key="old_column_name" type="xstring" value="Cluster"/>
+<entry key="new_column_name" type="xstring" value="Military expanditures class"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 85, Cols: 33"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+</config>
