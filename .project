@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>projet_knime_bachatene_rodiere</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.knime.workbench.ui.KNIMEWorkflowsetProject</nature>
+	</natures>
+</projectDescription>

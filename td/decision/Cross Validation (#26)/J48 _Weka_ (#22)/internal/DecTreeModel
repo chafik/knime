@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="KNIME_J48">
+<entry key="type" type="xstring" value="DecisionTree"/>
+<entry key="version" type="xstring" value="0.0"/>
+<config key="rootNode">
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="135.0"/>
+<entry key="ownClassFreq" type="xdouble" value="46.0"/>
+<entry key="ownIndex" type="xint" value="0"/>
+<entry key="prefix" type="xstring" value="root"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-setosa"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-versicolor"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="45.0"/>
+<entry key="1" type="xdouble" value="44.0"/>
+<entry key="2" type="xdouble" value="46.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="0.5"/>
+<entry key="splitAttribute" type="xstring" value="petal width"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="1"/>
+<entry key="prefix" type="xstring" value="petal width&lt;= 0.5"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-setosa"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="45.0"/>
+<entry key="ownClassFreq" type="xdouble" value="45.0"/>
+<entry key="ownIndex" type="xint" value="1"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-setosa"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-versicolor"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="45.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="2"/>
+<entry key="prefix" type="xstring" value="petal width&gt; 0.5"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="90.0"/>
+<entry key="ownClassFreq" type="xdouble" value="46.0"/>
+<entry key="ownIndex" type="xint" value="2"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-setosa"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-versicolor"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="44.0"/>
+<entry key="2" type="xdouble" value="46.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="1.7"/>
+<entry key="splitAttribute" type="xstring" value="petal width"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="3"/>
+<entry key="prefix" type="xstring" value="petal width&lt;= 1.7"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-versicolor"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="47.0"/>
+<entry key="ownClassFreq" type="xdouble" value="43.0"/>
+<entry key="ownIndex" type="xint" value="3"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-setosa"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-versicolor"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="43.0"/>
+<entry key="2" type="xdouble" value="4.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="4"/>
+<entry key="prefix" type="xstring" value="petal width&gt; 1.7"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="43.0"/>
+<entry key="ownClassFreq" type="xdouble" value="42.0"/>
+<entry key="ownIndex" type="xint" value="4"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="3"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-setosa"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-versicolor"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Iris-virginica"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="1.0"/>
+<entry key="2" type="xdouble" value="42.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+</config>
+</config>
+</config>
+</config>

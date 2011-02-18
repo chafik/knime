@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="DecTreeInternals">
+<entry key="type" type="xstring" value="DecisionTree"/>
+<entry key="version" type="xstring" value="0.0"/>
+<entry key="color_column" type="xstring" isnull="true" value=""/>
+<config key="rootNode">
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="46.0"/>
+<entry key="ownClassFreq" type="xdouble" value="16.0"/>
+<entry key="ownIndex" type="xint" value="0"/>
+<entry key="prefix" type="xstring" value="root"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="13.0"/>
+<entry key="1" type="xdouble" value="6.0"/>
+<entry key="2" type="xdouble" value="2.0"/>
+<entry key="3" type="xdouble" value="16.0"/>
+<entry key="4" type="xdouble" value="9.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="0.4999999999999999"/>
+<entry key="splitAttribute" type="xstring" value="CHEST"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="28.0"/>
+<entry key="ownClassFreq" type="xdouble" value="15.0"/>
+<entry key="ownIndex" type="xint" value="1"/>
+<entry key="prefix" type="xstring" value="CHEST&lt;= 0.5"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="13.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="15.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="0.2499999999999999"/>
+<entry key="splitAttribute" type="xstring" value="CHEST"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="11.0"/>
+<entry key="ownClassFreq" type="xdouble" value="11.0"/>
+<entry key="ownIndex" type="xint" value="2"/>
+<entry key="prefix" type="xstring" value="CHEST&lt;= 0.25"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="11.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+<config key="patterns">
+<entry key="pattern_0" type="xstring" value="Row43"/>
+<entry key="pattern_1" type="xstring" value="Row49"/>
+<entry key="pattern_2" type="xstring" value="Row46"/>
+<entry key="pattern_3" type="xstring" value="Row47"/>
+<entry key="pattern_4" type="xstring" value="Row50"/>
+<entry key="pattern_5" type="xstring" value="Row0"/>
+<entry key="pattern_6" type="xstring" value="Row51"/>
+<entry key="pattern_7" type="xstring" value="Row25"/>
+<entry key="pattern_8" type="xstring" value="Row23"/>
+<entry key="pattern_9" type="xstring" value="Row30"/>
+<entry key="pattern_10" type="xstring" value="Row11"/>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="22.0"/>
+</config>
+</config>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="17.0"/>
+<entry key="ownClassFreq" type="xdouble" value="15.0"/>
+<entry key="ownIndex" type="xint" value="3"/>
+<entry key="prefix" type="xstring" value="CHEST&gt; 0.25"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="2.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="15.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="0.345679012345679"/>
+<entry key="splitAttribute" type="xstring" value="LENGTH"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="2.0"/>
+<entry key="ownClassFreq" type="xdouble" value="2.0"/>
+<entry key="ownIndex" type="xint" value="4"/>
+<entry key="prefix" type="xstring" value="LENGTH&lt;= 0.345679"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="2.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+<config key="patterns">
+<entry key="pattern_0" type="xstring" value="Row34"/>
+<entry key="pattern_1" type="xstring" value="Row40"/>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="4.0"/>
+</config>
+</config>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="15.0"/>
+<entry key="ownClassFreq" type="xdouble" value="15.0"/>
+<entry key="ownIndex" type="xint" value="5"/>
+<entry key="prefix" type="xstring" value="LENGTH&gt; 0.345679"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="15.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+<config key="patterns">
+<entry key="pattern_0" type="xstring" value="Row9"/>
+<entry key="pattern_1" type="xstring" value="Row4"/>
+<entry key="pattern_2" type="xstring" value="Row18"/>
+<entry key="pattern_3" type="xstring" value="Row28"/>
+<entry key="pattern_4" type="xstring" value="Row53"/>
+<entry key="pattern_5" type="xstring" value="Row48"/>
+<entry key="pattern_6" type="xstring" value="Row35"/>
+<entry key="pattern_7" type="xstring" value="Row14"/>
+<entry key="pattern_8" type="xstring" value="Row27"/>
+<entry key="pattern_9" type="xstring" value="Row13"/>
+<entry key="pattern_10" type="xstring" value="Row26"/>
+<entry key="pattern_11" type="xstring" value="Row15"/>
+<entry key="pattern_12" type="xstring" value="Row12"/>
+<entry key="pattern_13" type="xstring" value="Row21"/>
+<entry key="pattern_14" type="xstring" value="Row20"/>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="30.0"/>
+</config>
+</config>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="34.0"/>
+</config>
+</config>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="56.0"/>
+</config>
+</config>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="18.0"/>
+<entry key="ownClassFreq" type="xdouble" value="9.0"/>
+<entry key="ownIndex" type="xint" value="6"/>
+<entry key="prefix" type="xstring" value="CHEST&gt; 0.5"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="6.0"/>
+<entry key="2" type="xdouble" value="2.0"/>
+<entry key="3" type="xdouble" value="1.0"/>
+<entry key="4" type="xdouble" value="9.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="0.7083333333333331"/>
+<entry key="splitAttribute" type="xstring" value="CHEST"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="11.0"/>
+<entry key="ownClassFreq" type="xdouble" value="9.0"/>
+<entry key="ownIndex" type="xint" value="7"/>
+<entry key="prefix" type="xstring" value="CHEST&lt;= 0.708333"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="1.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="1.0"/>
+<entry key="4" type="xdouble" value="9.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+<config key="patterns">
+<entry key="pattern_0" type="xstring" value="Row44"/>
+<entry key="pattern_1" type="xstring" value="Row45"/>
+<entry key="pattern_2" type="xstring" value="Row8"/>
+<entry key="pattern_3" type="xstring" value="Row6"/>
+<entry key="pattern_4" type="xstring" value="Row36"/>
+<entry key="pattern_5" type="xstring" value="Row37"/>
+<entry key="pattern_6" type="xstring" value="Row38"/>
+<entry key="pattern_7" type="xstring" value="Row16"/>
+<entry key="pattern_8" type="xstring" value="Row24"/>
+<entry key="pattern_9" type="xstring" value="Row10"/>
+<entry key="pattern_10" type="xstring" value="Row41"/>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="22.0"/>
+</config>
+</config>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="7.0"/>
+<entry key="ownClassFreq" type="xdouble" value="5.0"/>
+<entry key="ownIndex" type="xint" value="8"/>
+<entry key="prefix" type="xstring" value="CHEST&gt; 0.708333"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="5.0"/>
+<entry key="2" type="xdouble" value="2.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="ContinuousSplit"/>
+<entry key="threshold" type="xdouble" value="0.861111111111111"/>
+<entry key="splitAttribute" type="xstring" value="CHEST"/>
+<entry key="nrChildren" type="xint" value="2"/>
+<config key="child0">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="5.0"/>
+<entry key="ownClassFreq" type="xdouble" value="5.0"/>
+<entry key="ownIndex" type="xint" value="9"/>
+<entry key="prefix" type="xstring" value="CHEST&lt;= 0.861111"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="5.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+<config key="patterns">
+<entry key="pattern_0" type="xstring" value="Row31"/>
+<entry key="pattern_1" type="xstring" value="Row32"/>
+<entry key="pattern_2" type="xstring" value="Row7"/>
+<entry key="pattern_3" type="xstring" value="Row1"/>
+<entry key="pattern_4" type="xstring" value="Row39"/>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="10.0"/>
+</config>
+</config>
+</config>
+<config key="child1">
+<entry key="index" type="xint" value="0"/>
+<config key="class">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<entry key="allClassFreq" type="xdouble" value="2.0"/>
+<entry key="ownClassFreq" type="xdouble" value="2.0"/>
+<entry key="ownIndex" type="xint" value="10"/>
+<entry key="prefix" type="xstring" value="CHEST&gt; 0.861111"/>
+<entry key="newColors" type="xboolean" value="false"/>
+<config key="classes">
+<entry key="array-size" type="xint" value="5"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_0"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_1"/>
+</config>
+</config>
+<config key="2">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_2"/>
+</config>
+</config>
+<config key="3">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_3"/>
+</config>
+</config>
+<config key="4">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="cluster_4"/>
+</config>
+</config>
+</config>
+<config key="frequencies">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="2.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+<entry key="className" type="xstring" value="LeafNode"/>
+<config key="patterns">
+<entry key="pattern_0" type="xstring" value="Row42"/>
+<entry key="pattern_1" type="xstring" value="Row2"/>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="4.0"/>
+</config>
+</config>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="14.0"/>
+</config>
+</config>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="36.0"/>
+</config>
+</config>
+</config>
+<config key="colors">
+<config key="color_0">
+<entry key="red" type="xint" value="64"/>
+<entry key="green" type="xint" value="64"/>
+<entry key="blue" type="xint" value="64"/>
+<entry key="count" type="xdouble" value="92.0"/>
+</config>
+</config>
+</config>
+</config>

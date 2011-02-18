@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="5"/>
+<entry key="ignoredColumns" type="xint" value="3"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xint" value="18"/>
+<entry key="1" type="xint" value="8"/>
+<entry key="2" type="xint" value="27"/>
+<entry key="3" type="xint" value="25"/>
+<entry key="4" type="xint" value="8"/>
+<entry key="5" type="xint" value="8"/>
+<entry key="6" type="xint" value="16"/>
+<entry key="7" type="xint" value="20"/>
+<entry key="8" type="xint" value="20"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.05367231638418078"/>
+<entry key="1" type="xdouble" value="0.034722222222222224"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.9258474576271186"/>
+<entry key="1" type="xdouble" value="0.796875"/>
+</config>
+<config key="kMeansCluster2">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.6220966729441305"/>
+<entry key="1" type="xdouble" value="0.566358024691358"/>
+</config>
+<config key="kMeansCluster3">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.49016949152542366"/>
+<entry key="1" type="xdouble" value="0.45"/>
+</config>
+<config key="kMeansCluster4">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.1059322033898305"/>
+<entry key="1" type="xdouble" value="0.140625"/>
+</config>
+<config key="kMeansCluster5">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.06991525423728813"/>
+<entry key="1" type="xdouble" value="0.08854166666666667"/>
+</config>
+<config key="kMeansCluster6">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.09639830508474576"/>
+<entry key="1" type="xdouble" value="0.036458333333333336"/>
+</config>
+<config key="kMeansCluster7">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.7822033898305083"/>
+<entry key="1" type="xdouble" value="0.9104166666666668"/>
+</config>
+<config key="kMeansCluster8">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="0.705084745762712"/>
+<entry key="1" type="xdouble" value="0.7270833333333335"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Petal length"/>
+<entry key="1" type="xstring" value="Petal width"/>
+<entry key="2" type="xstring" isnull="true" value=""/>
+<entry key="3" type="xstring" isnull="true" value=""/>
+<entry key="4" type="xstring" isnull="true" value=""/>
+</config>
+<config key="HiLiteMapping">
+<config key="cluster_7">
+<entry key="cluster_7" type="xstring" value="cluster_7"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xstring" value="Row128"/>
+<entry key="1" type="xstring" value="Row136"/>
+<entry key="2" type="xstring" value="Row145"/>
+<entry key="3" type="xstring" value="Row135"/>
+<entry key="4" type="xstring" value="Row148"/>
+<entry key="5" type="xstring" value="Row115"/>
+<entry key="6" type="xstring" value="Row124"/>
+<entry key="7" type="xstring" value="Row114"/>
+<entry key="8" type="xstring" value="Row139"/>
+<entry key="9" type="xstring" value="Row112"/>
+<entry key="10" type="xstring" value="Row120"/>
+<entry key="11" type="xstring" value="Row140"/>
+<entry key="12" type="xstring" value="Row141"/>
+<entry key="13" type="xstring" value="Row132"/>
+<entry key="14" type="xstring" value="Row144"/>
+<entry key="15" type="xstring" value="Row143"/>
+<entry key="16" type="xstring" value="Row100"/>
+<entry key="17" type="xstring" value="Row104"/>
+<entry key="18" type="xstring" value="Row109"/>
+<entry key="19" type="xstring" value="Row102"/>
+</config>
+</config>
+<config key="cluster_8">
+<entry key="cluster_8" type="xstring" value="cluster_8"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="20"/>
+<entry key="0" type="xstring" value="Row146"/>
+<entry key="1" type="xstring" value="Row137"/>
+<entry key="2" type="xstring" value="Row127"/>
+<entry key="3" type="xstring" value="Row129"/>
+<entry key="4" type="xstring" value="Row116"/>
+<entry key="5" type="xstring" value="Row147"/>
+<entry key="6" type="xstring" value="Row70"/>
+<entry key="7" type="xstring" value="Row149"/>
+<entry key="8" type="xstring" value="Row123"/>
+<entry key="9" type="xstring" value="Row113"/>
+<entry key="10" type="xstring" value="Row126"/>
+<entry key="11" type="xstring" value="Row138"/>
+<entry key="12" type="xstring" value="Row111"/>
+<entry key="13" type="xstring" value="Row110"/>
+<entry key="14" type="xstring" value="Row121"/>
+<entry key="15" type="xstring" value="Row142"/>
+<entry key="16" type="xstring" value="Row77"/>
+<entry key="17" type="xstring" value="Row108"/>
+<entry key="18" type="xstring" value="Row103"/>
+<entry key="19" type="xstring" value="Row101"/>
+</config>
+</config>
+<config key="cluster_5">
+<entry key="cluster_5" type="xstring" value="cluster_5"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Row45"/>
+<entry key="1" type="xstring" value="Row6"/>
+<entry key="2" type="xstring" value="Row19"/>
+<entry key="3" type="xstring" value="Row17"/>
+<entry key="4" type="xstring" value="Row18"/>
+<entry key="5" type="xstring" value="Row16"/>
+<entry key="6" type="xstring" value="Row40"/>
+<entry key="7" type="xstring" value="Row41"/>
+</config>
+</config>
+<config key="cluster_6">
+<entry key="cluster_6" type="xstring" value="cluster_6"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="16"/>
+<entry key="0" type="xstring" value="Row9"/>
+<entry key="1" type="xstring" value="Row7"/>
+<entry key="2" type="xstring" value="Row3"/>
+<entry key="3" type="xstring" value="Row29"/>
+<entry key="4" type="xstring" value="Row39"/>
+<entry key="5" type="xstring" value="Row32"/>
+<entry key="6" type="xstring" value="Row34"/>
+<entry key="7" type="xstring" value="Row48"/>
+<entry key="8" type="xstring" value="Row46"/>
+<entry key="9" type="xstring" value="Row27"/>
+<entry key="10" type="xstring" value="Row25"/>
+<entry key="11" type="xstring" value="Row24"/>
+<entry key="12" type="xstring" value="Row10"/>
+<entry key="13" type="xstring" value="Row20"/>
+<entry key="14" type="xstring" value="Row11"/>
+<entry key="15" type="xstring" value="Row30"/>
+</config>
+</config>
+<config key="cluster_4">
+<entry key="cluster_4" type="xstring" value="cluster_4"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Row44"/>
+<entry key="1" type="xstring" value="Row31"/>
+<entry key="2" type="xstring" value="Row43"/>
+<entry key="3" type="xstring" value="Row5"/>
+<entry key="4" type="xstring" value="Row26"/>
+<entry key="5" type="xstring" value="Row15"/>
+<entry key="6" type="xstring" value="Row23"/>
+<entry key="7" type="xstring" value="Row21"/>
+</config>
+</config>
+<config key="cluster_3">
+<entry key="cluster_3" type="xstring" value="cluster_3"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="25"/>
+<entry key="0" type="xstring" value="Row82"/>
+<entry key="1" type="xstring" value="Row81"/>
+<entry key="2" type="xstring" value="Row80"/>
+<entry key="3" type="xstring" value="Row89"/>
+<entry key="4" type="xstring" value="Row88"/>
+<entry key="5" type="xstring" value="Row57"/>
+<entry key="6" type="xstring" value="Row59"/>
+<entry key="7" type="xstring" value="Row53"/>
+<entry key="8" type="xstring" value="Row92"/>
+<entry key="9" type="xstring" value="Row74"/>
+<entry key="10" type="xstring" value="Row90"/>
+<entry key="11" type="xstring" value="Row71"/>
+<entry key="12" type="xstring" value="Row96"/>
+<entry key="13" type="xstring" value="Row95"/>
+<entry key="14" type="xstring" value="Row94"/>
+<entry key="15" type="xstring" value="Row93"/>
+<entry key="16" type="xstring" value="Row99"/>
+<entry key="17" type="xstring" value="Row98"/>
+<entry key="18" type="xstring" value="Row79"/>
+<entry key="19" type="xstring" value="Row97"/>
+<entry key="20" type="xstring" value="Row69"/>
+<entry key="21" type="xstring" value="Row67"/>
+<entry key="22" type="xstring" value="Row64"/>
+<entry key="23" type="xstring" value="Row62"/>
+<entry key="24" type="xstring" value="Row60"/>
+</config>
+</config>
+<config key="cluster_2">
+<entry key="cluster_2" type="xstring" value="cluster_2"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="27"/>
+<entry key="0" type="xstring" value="Row83"/>
+<entry key="1" type="xstring" value="Row119"/>
+<entry key="2" type="xstring" value="Row85"/>
+<entry key="3" type="xstring" value="Row84"/>
+<entry key="4" type="xstring" value="Row134"/>
+<entry key="5" type="xstring" value="Row87"/>
+<entry key="6" type="xstring" value="Row133"/>
+<entry key="7" type="xstring" value="Row86"/>
+<entry key="8" type="xstring" value="Row58"/>
+<entry key="9" type="xstring" value="Row54"/>
+<entry key="10" type="xstring" value="Row55"/>
+<entry key="11" type="xstring" value="Row56"/>
+<entry key="12" type="xstring" value="Row50"/>
+<entry key="13" type="xstring" value="Row51"/>
+<entry key="14" type="xstring" value="Row106"/>
+<entry key="15" type="xstring" value="Row52"/>
+<entry key="16" type="xstring" value="Row73"/>
+<entry key="17" type="xstring" value="Row91"/>
+<entry key="18" type="xstring" value="Row72"/>
+<entry key="19" type="xstring" value="Row78"/>
+<entry key="20" type="xstring" value="Row76"/>
+<entry key="21" type="xstring" value="Row75"/>
+<entry key="22" type="xstring" value="Row68"/>
+<entry key="23" type="xstring" value="Row66"/>
+<entry key="24" type="xstring" value="Row65"/>
+<entry key="25" type="xstring" value="Row63"/>
+<entry key="26" type="xstring" value="Row61"/>
+</config>
+</config>
+<config key="cluster_1">
+<entry key="cluster_1" type="xstring" value="cluster_1"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Row118"/>
+<entry key="1" type="xstring" value="Row117"/>
+<entry key="2" type="xstring" value="Row125"/>
+<entry key="3" type="xstring" value="Row107"/>
+<entry key="4" type="xstring" value="Row105"/>
+<entry key="5" type="xstring" value="Row122"/>
+<entry key="6" type="xstring" value="Row131"/>
+<entry key="7" type="xstring" value="Row130"/>
+</config>
+</config>
+<config key="cluster_0">
+<entry key="cluster_0" type="xstring" value="cluster_0"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="18"/>
+<entry key="0" type="xstring" value="Row8"/>
+<entry key="1" type="xstring" value="Row4"/>
+<entry key="2" type="xstring" value="Row2"/>
+<entry key="3" type="xstring" value="Row1"/>
+<entry key="4" type="xstring" value="Row0"/>
+<entry key="5" type="xstring" value="Row28"/>
+<entry key="6" type="xstring" value="Row42"/>
+<entry key="7" type="xstring" value="Row33"/>
+<entry key="8" type="xstring" value="Row35"/>
+<entry key="9" type="xstring" value="Row49"/>
+<entry key="10" type="xstring" value="Row36"/>
+<entry key="11" type="xstring" value="Row37"/>
+<entry key="12" type="xstring" value="Row47"/>
+<entry key="13" type="xstring" value="Row38"/>
+<entry key="14" type="xstring" value="Row14"/>
+<entry key="15" type="xstring" value="Row13"/>
+<entry key="16" type="xstring" value="Row22"/>
+<entry key="17" type="xstring" value="Row12"/>
+</config>
+</config>
+</config>
+</config>
