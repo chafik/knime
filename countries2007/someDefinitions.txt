@@ -1,0 +1,80 @@
+
+Definitions of some indices
+
+Permanent URL for this page: http://go.worldbank.org/1BJE04D3T0
+Copyright 2009 The World Bank Group
+
+Access to improved sanitation facilities is the percentage of the population with at least adequate excreta disposal facilities (private or shared, but not public) that can effectively prevent human, animal, and insect contact with excreta. Improved facilities range from simple but protected pit latrines to flush toilets with a sewerage connection. To be effective, facilities must be correctly constructed and properly maintained. (World Health Organization/United Nations Children’s Fund Joint Monitoring Programme)
+
+Access to improved water source is the percentage of the population with reasonable access to an adequate amount of water from an improved source, such as a household connection, public standpipe, borehole, protected well or spring, or rainwater collection. Unimproved sources include vendors, tanker trucks, and unprotected wells and springs. Reasonable access is defined as the availability of at least 20 liters a person a day from a source within 1 kilometer of the dwelling. (World Health Organization/United Nations Children’s Fund Joint Monitoring Programme)
+
+Child malnutrition, underweight is the percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the international reference population ages 0–59 months. The reference population, adopted by the World Health Organization (WHO) in 1983, is based on children from the United States, who are assumed to be well nourished (WHO and United Nations Children’s Fund)
+
+CO2 emissions are emissions stemming from the burning of fossil fuels and the manufacture of cement. They include carbon dioxide produced during consumption of solid, liquid, and gas fuels and gas flaring. (Carbon Dioxide Information Analysis Center)
+
+Deforestation is the permanent conversion of natural forest areas to other uses, including shifting cultivation, permanent agriculture, ranching, settlements, and infrastructure development. Deforested areas do not include areas logged but intended for regeneration or areas degraded by fuelwood gathering, acid precipitation, or forest fires. Negative numbers indicate an increase in forest area. (Food and Agriculture Organization)
+
+Energy use per capita is per capita use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transportation. (International Energy Agency)
+
+Expenditures for R&D are current and capital expenditures on creative, systematic activity that increases the stock of knowledge. Included are fundamental and applied research and experimental development work leading to new devices, products, or processes. (United Nations Educational, Scientific, and Cultural Organization)
+
+Exports of goods and services are the value of all goods and other market services provided to the rest of the world, including the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services. Compensation of employees and investment income (formerly called factor services) are excluded, as are transfer payments. (World Bank, Organisation for Economic Co-operation and Development, United Nations)
+
+Fixed-line and mobile phone subscribers: fixed lines are telephone lines connecting a customer’s equipment to the public switched telephone network. Mobile telephones refer to users of portable telephones subscribing to an automatic public mobile telephone service using cellular technology that provides access to the public switched telephone network. (International Telecommunication Union and World Bank)
+
+Foreign direct investment, net inflows are investments to acquire a lasting management interest in an enterprise operating in an economy other than that of the investor. They are the sum of inflows of equity capital, reinvestment of earnings, other long-term capital, and short-term capital in the reporting country as shown in the balance of payments. (World Bank and International Monetary Fund)
+
+Forests are land under natural or planted stands of trees, whether productive or not. (Food and Agriculture Organization)
+
+Freshwater resources refer to internal renewable resources (internal river flows and groundwater from rainfall) in the country. Freshwater resources per capita are calculated using the World Bank’s population estimates. (World Resources Institute)
+
+GDP is gross domestic product at purchaser prices. It is the sum of the gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. PPP GDP is gross domestic product converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GDP as a U.S. dollar has in the United States. (World Bank, Organisation for Economic Co-operation and Development, and United Nations)
+
+GNI (gross national income) is gross domestic product (GDP) plus net receipts of primary income (employee compensation and investment income) from abroad. GDP is the sum of value added by all resident producers plus any product taxes (less subsidies) not included in the valuation of output. (World Bank)
+
+GNI per capita is gross national income divided by midyear population. PPP GNI is gross national income converted to international dollars using purchasing power parity rates. An international dollar has the same purchasing power over GNI as a U.S. dollar has in the United States. (World Bank)
+
+Gross capital formation is outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private residential dwellings, and commercial and industrial buildings. Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales and work in progress. According to the 1993 System of National Accounts, net acquisitions of valuables are also considered capital formation. (World Bank, Organisation for Economic Co-operation and Development, and United Nations)
+
+Gross private capital flows are the sum of the absolute values of direct, portfolio, and other investment inflows and outflows recorded in the balance of payments financial account, excluding changes in the assets and liabilities of monetary authorities and general government. The indicator is calculated as a ratio to GDP in U.S. dollars. (International Monetary Fund and World Bank)
+
+High-technology exports are products with high research and development intensity, as in aerospace, computers, pharmaceuticals, and scientific instruments. (United Nations Statistics Division’s Commodity Trade database)
+
+Life expectancy is the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. (World Bank)
+
+Merchandise trade is the sum of merchandise exports and imports measured in current U.S. dollars. (World Trade Organization and World Bank)
+
+Military expenditures include all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in defense projects; paramilitary forces, if these are judged to be trained and equipped for military operations; and military space activities. Such expenditures include military and civil personnel, including retirement pensions of military personnel and social services for personnel; operation and maintenance; procurement; military research and development; and military aid (in the military expenditures of the donor country). Excluded are civil defense and current expenditures for previous military activities, such as for veterans’ benefits, demobilization, conversion, and destruction of weapons. This definition cannot be applied for all countries, however, since that would require much more detailed information than is available about what is included in military budgets and off-budget military expenditure items. (Stockholm International Peace Research Institute)
+
+Net aid flows are official development assistance and official aid received from members of the Organisation for Economic Co-operation and Development (OECD) Development Assistance Committee and other official donors. (OECD)
+
+Paved roads are roads surfaced with crushed stone (macadam) and hydrocarbon binder or bituminized agents, with concrete, or with cobblestones, as a percentage of all the country’s roads, measured in length. (International Road Federation)
+
+PCs are self-contained computers designed to be used by a single individual. (International Telecommunication Union and World Bank)
+
+Population is the mid-year estimate of all residents regardless of legal status or citizenship, except for refugees not permanently settled in the country of asylum who are generally considered part of the population of their country of origin. (World Bank)
+
+Prevalence of HIV, adults is the percentage of people ages 15–49 who are infected with HIV. (Joint United Nations Programme on HIV/AIDS and World Health Organization)
+
+Primary completion rate is the number of students in the last year of primary school in a given year divided by the number of children of official graduation age in the population. Note: There is a break in series between 1997 and 1998 due to the change from International Standard Classification of Education 1976 (ISCED76) to ISCED97. (United Nations Educational, Scientific, and Cultural Organization Institute for Statistics)
+
+Ratio of girls to boys in primary and secondary   is the ratio of the female to male gross enrollment rate in primary and secondary school. (United Nations Educational, Scientific, and Cultural Organization Institute for Statistics)
+
+Remittances received comprise workers remittances, migrants’ transfers and wages, and salaries earned by nonresident workers (International Monetary Fund and World Bank)
+
+Services is the net output of services (International Standard Industrial Classification divisions 50–99) after totaling outputs and subtracting intermediate inputs. This sector is derived as a residual and may not properly reflect the sum of services outputs, including banking and financial services. (World Bank, Organisation for Economic Co-operation and Development, and United Nations)
+
+Starting a business is the number of calendar days needed to complete the required procedures for legally operating a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen. (World Bank)
+
+Stock market capitalization is the share price times the number of shares outstanding. (Standard and Poor’s)
+
+Surface area is a country’s total area, including areas under inland bodies of water and some coastal waterways. (Food and Agriculture Organization)
+
+Total debt service is the sum of principal repayments and interest actually paid in foreign currency, goods, or services on long-term debt (public and publicly guaranteed and private nonguaranteed); interest paid on shortterm debt; and use of International Monetary Fund credit as a percentage of exports. Exports refer to goods, services, income (employee compensation and investment income), and workers’ remittances. (World Bank and International Monetary Fund)
+
+Total external debt is the debt owed to nonresidents repayable in foreign currency, goods, or services. It is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. (World Bank)
+
+Under-5 mortality rate is the probability that a newborn baby will die before reaching age 5, if subject to current age-specific mortality rates. (harmonized estimate of World Health Organization, United Nations Children’s Fund, and World Bank)
+
+Youth literacy rate is the percentage of people ages 15 to 24 who can, with understanding, read and write a short, simple statement about their everyday life. (United Nations Educational, Scientific, and Cultural Organization Institute for Statistics)
+
