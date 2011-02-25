@@ -1,0 +1,209 @@
+"Country Name","Country Code","Liberty Index"
+"Afghanistan","AFG",4.167
+"Albania","ALB",3
+"Algeria","DZA",5
+"American Samoa","ASM",
+"Andorra","ADO",1
+"Angola","AGO",5
+"Antigua and Barbuda","ATG",2
+"Argentina","ARG",2
+"Armenia","ARM",4
+"Aruba","ABW",
+"Australia","AUS",1
+"Austria","AUT",1
+"Azerbaijan","AZE",5
+"Bahamas, The",
+"Bahrain","BHR",5
+"Bangladesh","BGD",4
+"Belarus","BLR",6
+"Belgium","BEL",1
+"Belize","BLZ",2
+"Benin","BEN",2
+"Bermuda","BMU",
+"Bhutan","BTN",5
+"Bolivia","BOL",3
+"Bosnia and Herzegovina","BIH",1.833
+"Botswana","BWA",2
+"Brazil","BRA",1.167
+"Brunei Darussalam","BRN",5
+"Bulgaria","BGR",2
+"Burkina Faso","BFA",2.167
+"Burundi","BDI",5
+"Cambodia","KHM",5
+"Cameroon","CMR",6
+"Canada","CAN",1
+"Cape Verde","CPV",1
+"Cayman Islands","CYM",
+"Central African Republic","CAF",3.167
+"Chad","TCD",5
+"Channel Islands","CHI",
+"Chile","CHL",1
+"China","CHN",6
+"Colombia","COL",2.167
+"Comoros","COM",4
+"Congo, Dem. Rep.",
+"Congo, Rep.",
+"Costa Rica","CRI",-0.167
+"Cote d'Ivoire","CIV",7.167
+"Croatia","HRV",2
+"Cuba","CUB",7
+"Cyprus","CYP",1
+"Czech Republic","CZE",-0.167
+"Denmark","DNK",1
+"Djibouti","DJI",5
+"Dominica","DMA",1
+"Dominican Republic","DOM",2
+"Ecuador","ECU",3
+"Egypt, Arab Rep.",
+"El Salvador","SLV",3
+"Equatorial Guinea","GNQ",6
+"Eritrea","ERI",6
+"Estonia","EST",-0.167
+"Ethiopia","ETH",5
+"Faeroe Islands","FRO",
+"Fiji","FJI",3
+"Finland","FIN",1
+"France","FRA",1
+"French Polynesia","PYF",
+"Gabon","GAB",4
+"Gambia, The",
+"Georgia","GEO",2.167
+"Germany","DEU",1
+"Ghana","GHA",2
+"Greece","GRC",2
+"Greenland","GRL",
+"Grenada","GRD",2
+"Guam","GUM",
+"Guatemala","GTM",4
+"Guinea","GIN",5
+"Guinea-Bissau","GNB",4
+"Guyana","GUY",3.833
+"Haiti","HTI",6
+"Honduras","HND",3
+"Hong Kong, China",
+"Hungary","HUN",-0.167
+"Iceland","ISL",1
+"India","IND",3
+"Indonesia","IDN",2.167
+"Iran, Islamic Rep.",
+"Iraq","IRQ",5
+"Ireland","IRL",1
+"Isle of Man","IMY",
+"Israel","ISR",1.167
+"Italy","ITA",1
+"Jamaica","JAM",3
+"Japan","JPN",2
+"Jordan","JOR",2.833
+"Kazakhstan","KAZ",5
+"Kenya","KEN",3
+"Kiribati","KIR",1
+"Korea, Dem. Rep.",
+"Korea, Rep.",
+"Kuwait","KWT",5
+"Kyrgyz Republic","KGZ",3.167
+"Lao PDR","LAO",6
+"Latvia","LVA",0.167
+"Lebanon","LBN",3.167
+"Lesotho","LSO",3
+"Liberia","LBR",1.667
+"Libya","LBY",7
+"Liechtenstein","LIE",1
+"Lithuania","LTU",0.167
+"Luxembourg","LUX",1
+"Macao, China",
+"Macedonia, FYR",
+"Madagascar","MDG",3
+"Malawi","MWI",4
+"Malaysia","MYS",4
+"Maldives","MDV",5
+"Mali","MLI",2
+"Malta","MLT",1
+"Marshall Islands","MHL",1
+"Mauritania","MRT",3.167
+"Mauritius","MUS",-0.167
+"Mayotte","MYT",
+"Mexico","MEX",2
+"Micronesia, Fed. Sts.",
+"Moldova","MDA",4
+"Monaco","MCO",1
+"Mongolia","MNG",2
+"Montenegro","MNE",
+"Morocco","MAR",2.833
+"Mozambique","MOZ",4
+"Myanmar","MMR",
+"Namibia","NAM",1,167
+"Nepal","NPL",6.167
+"Netherlands","NLD",1
+"Netherlands Antilles","ANT",
+"New Caledonia","NCL",
+"New Zealand","NZL",1
+"Nicaragua","NIC",3
+"Niger","NER",1.833
+"Nigeria","NGA",4
+"Northern Mariana Islands","MNP",
+"Norway","NOR",1
+"Oman","OMN",5
+"Pakistan","PAK",5
+"Palau","PLW",1
+"Panama","PAN",2
+"Papua New Guinea","PNG",3
+"Paraguay","PRY",3
+"Peru","PER",3
+"Philippines","PHL",3
+"Poland","POL",-0.167
+"Portugal","PRT",1
+"Puerto Rico","PRI",
+"Qatar","QAT",3.833
+"Romania","ROM",2
+"Russian Federation","RUS",5
+"Rwanda","RWA",5
+"Samoa","WSM",2
+"San Marino","SMR",1
+"Sao Tome and Principe","STP",2
+"Saudi Arabia","SAU",5.167
+"Senegal","SEN",3
+"Serbia","SRB",
+"Seychelles","SYC",3
+"Sierra Leone","SLE",3
+"Singapore","SGP",4
+"Slovak Republic","SVK",-0.167
+"Slovenia","SVN",1
+"Solomon Islands","SLB",3
+"Somalia","SOM",7
+"South Africa","ZAF",2
+"Spain","ESP",1
+"Sri Lanka","LKA",3
+"St. Kitts and Nevis","KNA",0.167
+"St. Lucia","LCA",2
+"St. Vincent and the Grenadines","VCT",1
+"Sudan","SDN",7
+"Suriname","SUR",2
+"Swaziland","SWZ",5
+"Sweden","SWE",1
+"Switzerland","CHE",1
+"Syrian Arab Republic","SYR",7
+"Tajikistan","TJK",5
+"Tanzania","TZA",3
+"Thailand","THA",3
+"Timor-Leste","TMP",
+"Togo","TGO",5
+"Tonga","TON",3
+"Trinidad and Tobago","TTO",1.167
+"Tunisia","TUN",5
+"Turkey","TUR",1.833
+"Turkmenistan","TKM",7
+"Uganda","UGA",4
+"Ukraine","UKR",0
+"United Arab Emirates","ARE",6
+"United Kingdom","GBR",1
+"United States","USA",1
+"Uruguay","URY",1
+"Uzbekistan","UZB",7.833
+"Vanuatu","VUT",2
+"Venezuela, RB",
+"Vietnam","VNM",4.167
+"Virgin Islands (U.S.)","VIR",
+"West Bank and Gaza","WBG",
+"Yemen, Rep.",
+"Zambia","ZMB",4
+"Zimbabwe","ZWE",

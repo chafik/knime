@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="Hierarchical Clustering"/>
+<config key="model">
+<config key="numberClusters_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="numberClusters" type="xint" value="3"/>
+<config key="distFunction_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="distFunction" type="xstring" value="Euclidean"/>
+<config key="linkageType_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="linkageType" type="xstring" value="COMPLETE"/>
+<config key="cacheDistances_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cacheDistances" type="xboolean" value="true"/>
+<config key="selectedColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="selectedColumns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Liberty Index"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="30"/>
+<entry key="0" type="xstring" value="Year"/>
+<entry key="1" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+<entry key="2" type="xstring" value="Agriculture, value added (% of GDP)"/>
+<entry key="3" type="xstring" value="Exports of goods and services (% of GDP)"/>
+<entry key="4" type="xstring" value="Fertility rate, total (births per woman)"/>
+<entry key="5" type="xstring" value="Foreign direct investment, net inflows (BoP, current US$)"/>
+<entry key="6" type="xstring" value="GDP (current US$)"/>
+<entry key="7" type="xstring" value="GDP growth (annual %)"/>
+<entry key="8" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
+<entry key="9" type="xstring" value="GNI per capita, PPP (current international $)"/>
+<entry key="10" type="xstring" value="GNI, Atlas method (current US$)"/>
+<entry key="11" type="xstring" value="GNI, PPP (current international $)"/>
+<entry key="12" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
+<entry key="13" type="xstring" value="Imports of goods and services (% of GDP)"/>
+<entry key="14" type="xstring" value="Industry, value added (% of GDP)"/>
+<entry key="15" type="xstring" value="Inflation, GDP deflator (annual %)"/>
+<entry key="16" type="xstring" value="Internet users (per 100 people)"/>
+<entry key="17" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="18" type="xstring" value="Merchandise trade (% of GDP)"/>
+<entry key="19" type="xstring" value="Military expenditure (% of GDP)"/>
+<entry key="20" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
+<entry key="21" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
+<entry key="22" type="xstring" value="Population growth (annual %)"/>
+<entry key="23" type="xstring" value="Population, total"/>
+<entry key="24" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="25" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
+<entry key="26" type="xstring" value="Services, etc., value added (% of GDP)"/>
+<entry key="27" type="xstring" value="Surface area (sq. km)"/>
+<entry key="28" type="xstring" value="Time required to start a business (days)"/>
+<entry key="29" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 156, Cols: 49"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+</config>
