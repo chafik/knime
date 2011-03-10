@@ -14,21 +14,19 @@
 - Ensuite chercher à trouver (générer) les indices de liberté à partir des résultats (liens, modèles) établis
 \section{Détermination du champ d'étude}
 \subsection{Identification des attributs pertinents}
--Visualisation sous forme de diagrammes (lignes parallèles, scatter...)
 Blabla plus interessant
--Justification des choix d'attributs pour chaque axe de recherche (santé, démographie...)
+Cette partie tentera de justifier les choix d'attributs pour leur rapport \emph{possible} avec la liberté civile des peuples.
 \subsubsection{Social}
 \begin{description}
 \item [Adolescent fertility rate] 
-Voir yoyo
+Il est possible de supposer --- à la limite --- qu'un état totalitaire aura des particularités du point de vue de la fécondité des adolescents. En effet, on peut imaginer que le taux d'accès aux études supérieures plus bas influence 
 \item [Worker's remittances and compensation of employees]
-Je ne sais pas ce que c'est
+{\huge Je ne sais pas ce que c'est}
 \item [Internet users]
 Les aspects de censure liés aux dictatures se traduiraient par un usage très limité d'internet. Aussi le nombre d'internautes 
 au sein d'une dictature se réduisant aux membres du régime, on s'attend à trouver une relation proportionnelle entre l'indice de liberté et le nombre d'internautes. 
 \item [Mobile cellular suscriptions]
-Le fort contrôle des moyens de communication de la part d'un régime totalitaire pourrait induire une utilisation de la télphonie mobile très limitée. //reformuler
- 
+Le fort contrôle des moyens de communication de la part d'un régime totalitaire pourrait induire une utilisation de la télphonie mobile très limitée.
 \end{description}
 
 \graph{correlation_social}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Social}}
@@ -73,17 +71,17 @@ Sans surprise, le taux de fécondité des adolescentes est fortement lié à cel
 \subsubsection{Démographie} 
 \begin{description}
 \item [Fertility rate]
-Cf plus haut
+Cf. plus haut
 \item [Adolescent fertility]
-Cf plus haut
+Cf. plus haut
 \item [Population totale]
 On part de la même hypothèse que celle de la surface. Plus la population est importante plus l'indice de liberté est important.
 \item Population growth
 Tout comme le taux de mortalité, la croissance serait inversement proportionnelle à l'indice de liberté d'un pays.
 \item [Life expectancy]
-Cf plus haut
+Cf. plus haut
 \item [Surface]
-Cf plus haut
+Cf. plus haut
 \end{description}
 
 \graph{correlation_demographie}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Démographie}}
@@ -121,6 +119,7 @@ Cette matrice montre l'importance de la purification des attributs, qui aboutit 
 Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acceptables --- à la limite. Deux jeux ont dû être éliminés faute d'attributs non corrélés en assez grand nombre. Ces données étant quelque peu limitées, nous tenterons également d'utiliser un jeu d'attributs de sémantique hétérogène : constitué du résultat de la PCA de chaque jeu d'attributs, il nous permettra de tenter une autre approche.
 
 \subsection{Introduction d'un nouvel attribut}
+{\huge TODO}
 -Blabla site internet, organisation
 -Pb : absence données sous forme de fichiers exploitable directement (cvs) d'ou le script (merci yoyo)
 
@@ -133,9 +132,12 @@ La tentative d'éliminer plus d'outliers via une analyse en deux dimensions éch
 {\huge TODO : outliers autres jeux d'attributs}
 
 \subsection{Discrétisation de la dimension \og liberté \fg}
-Blabla
--Clustering hiérarchique
--K-Means (ne pas oublier de parler de la stabilité)
+On tente ici de mettre en place un attribut de \og classe \fg, un libellé déterminé par l'indice de liberté. Dans un premier temps, il faut déterminer le nombre de classes à créer. Le noeud \og Hierarchical clustering \fg nous y aide : un optimum de 5 clusters se lit directement sur le graphe suivant.
+\graph{distance_liberty_clusters}{Distance entre clusters en fonction du nombre de clusters demandé (clusters hiérarchiques)}
+Cette propriété est flagrante sur le dendrogramme.
+\graph{hierarchical_liberty_clusters}{Dendrogramme du clustering hiérarchique}
+
+On utilise le même noeud pour nous fournir ces classes. Ceci fait, nous pouvons commencer l'étude proprement dite.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -144,6 +146,7 @@ Blabla
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+-K-Means (ne pas oublier de parler de la stabilité)
 
 
 
