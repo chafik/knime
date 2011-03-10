@@ -1,4 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Contexte}
 -Blabla : objectifs du projets ...
 -Rappel des données et des outils
@@ -24,8 +29,13 @@ au sein d'une dictature se réduisant aux membres du régime, on s'attend à tro
 \item [Mobile cellular suscriptions]
 Le fort contrôle des moyens de communication de la part d'un régime totalitaire pourrait induire une utilisation de la télphonie mobile très limitée. //reformuler
  
-\end{description} 
-\subsubsection{Santé} 
+\end{description}
+
+\graph{correlation_social}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Social}}
+Les attributs ayant trait aux nouvelles technologies de l'information sont linéairement corrélés, pour des raisons évidentes. De manière plus surprenante, la fécondité des adolescents semble se rapprocher d'une fonction linéaire décroissante du taux d'accès à Internet\ldots
+Sans nous livrer à des conclusions trop hâtives, nous ne considérerons cependant que le taux d'accès Internet en tant qu'attribut représentant les trois.
+
+\subsubsection{Santé}
 \begin{description}
 \item [Immunization]
 Cet attribut est étroitement lié aux impacts de la liberté sur les aspects économiques d'un pays. Un pays totalitaire
@@ -39,7 +49,10 @@ Les engagements militaires d'un tel pays entraineraient des pertes humaines cons
 \item [HIV]
 Un indice de liberté très bas augementerait le nombre de personnes atteintes de maladies. En particulier le SIDA.
 \end{description}
- 
+
+\graph{correlation_sante}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Santé}}
+Comme tous les attributs sont corrélés entre eux (on peut trouver au maximum deux attributs ayant un coefficient de corrélation linéaire relativement faible), il est difficile de continuer l'étude sur ce seul groupe d'attributs. Nous verrons par la suite comment remédier à ce problème.
+
 \subsubsection{Armée}
 \begin{description}
 \item [Adolescent fertility rate]
@@ -51,10 +64,12 @@ On s'attend à trouver un lien entre le taux de fécondité et l'indice de liber
 \item [Life expectancy]
 Cf plus haut.
 \item [Surface]
-Un grand pays en terme de surface pourrait être difficilement controlable par un régime totalitaire. Il posséderait donc un indice de liberté plus important qu'un pays plus petit en surface.
+Un grand pays en terme de surface pourrait être difficilement controlable par une dictature militaire. Il posséderait donc un indice de liberté plus important qu'un pays plus petit en surface.
 \end{description}
- 
- 
+
+\graph{correlation_armee}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Armée}}
+Sans surprise, le taux de fécondité des adolescentes est fortement lié à celui des femmes en général. De même, l'espérance de vie est fortement liée à ces taux de fécondité. On ne retiendra donc que l'espérance de vie.
+
 \subsubsection{Démographie} 
 \begin{description}
 \item [Fertility rate]
@@ -70,7 +85,10 @@ Cf plus haut
 \item [Surface]
 Cf plus haut
 \end{description}
- 
+
+\graph{correlation_demographie}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Démographie}}
+Comme dans le domaine de la santé, les attributs sont corrélés dans des proportions déraisonnables. Ce problème est traité plus bas.
+
 \subsubsection{Economie}
 \begin{description}
 \item [Agriculture]
@@ -95,39 +113,58 @@ Reflet direct du niveau de vie des habitants, cet attribut serait dépendant de 
 
 \end{description}
 
+\graph{correlation_economie}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Economie}}
+Cette matrice montre l'importance de la purification des attributs, qui aboutit à la nouvelle matrice suivante.
+\graph{correlation_economie_2}{Corrélation linéaire des différents attributs conservés dans la catégorie \emph{Economie}}
+
+\subsubsection{Bilan des choix d'attributs}
+Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acceptables --- à la limite. Deux jeux ont dû être éliminés faute d'attributs non corrélés en assez grand nombre. Ces données étant quelque peu limitées, nous tenterons également d'utiliser un jeu d'attributs de sémantique hétérogène : constitué du résultat de la PCA de chaque jeu d'attributs, il nous permettra de tenter une autre approche.
+
 \subsection{Introduction d'un nouvel attribut}
 Les mouvements révolutionaires de libération que connait le monde arabe nous ont poussé à étudier de plus près l'impact des libertés sur les situations sociales, économiques et militaires de certains pays.
 Un 
 -Blabla site internet, organisation
 -Pb : absence données sous forme de fichiers exploitable directement (cvs) d'ou le script (merci yoyo)
-\subsection{Choix des pays à étudier}
--décompostion géographique ??
 
 \subsection{Elimination des outliers}
--Diagrammes (Scatter Plot, Boites à moustache...)
--1D, 2D plus de 2D(cahier de parrain)
+En procédant tout d'abord à une analyse sur chaque dimension, on élimine tout d'abord les premiers et derniers déciles dans chacune d'elles.
+\graph{outliers_PCA_avant_1D}{Répartition des pays selon chacune des dimensions obtenues au terme de la PCA}
+\graph{outliers_PCA_hilite_1D}{Choix des outliers selon chacune des dimensions obtenues au terme de la PCA}
+La tentative d'éliminer plus d'outliers via une analyse en deux dimensions échoue, puisque tous les outliers visibles ont déjà été détectés grâce à l'analyse 1D.
+\graph{outliers_PCA_avant_2D}{Choix des outliers selon chaque couple parmis les dimensions obtenues au terme de la PCA}
+{\huge TODO : outliers autres jeux d'attributs}
+
 \subsection{Discrétisation de la dimension \og liberté \fg}
 Blabla
 -Clustering hiérarchique
 -K-Means (ne pas oublier de parler de la stabilité)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Classification non supervisée}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Classification supervisée}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
-
-
-
-	
--Objectifs
-
-\section{Selection}
-
-\section{Missing value}
-\section{Correlation}
-\section{Outliers}
-
-\section{Normalisation}
-
-
-Décomposer les pays en cluster en fonction des dépenses militaires
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 

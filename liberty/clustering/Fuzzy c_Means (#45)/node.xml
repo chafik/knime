@@ -7,8 +7,14 @@
 <entry key="maxiterations" type="xint" value="99"/>
 <entry key="fuzzifier" type="xdouble" value="2.0"/>
 <config key="exclude">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Social"/>
+<entry key="1" type="xstring" value="Liberty Index"/>
+<entry key="2" type="xstring" value="Santé"/>
+<entry key="3" type="xstring" value="Armée"/>
+<entry key="4" type="xstring" value="Démographie"/>
+<entry key="5" type="xstring" value="Economie 1"/>
+<entry key="6" type="xstring" value="Economie 2"/>
 </config>
 <entry key="noise" type="xboolean" value="false"/>
 <entry key="lambda" type="xdouble" value="0.1"/>
@@ -23,7 +29,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 156, Cols: 11"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 57, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">

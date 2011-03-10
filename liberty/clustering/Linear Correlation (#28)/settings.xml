@@ -6,11 +6,11 @@
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
-<entry key="customName" type="xstring" value="Choix colonnes"/>
+<entry key="customName" type="xstring" value="Vérification corrélation"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <config key="node_message">
 <entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Some row(s) contained missing values."/>
+<entry key="message" type="xstring" value="No such column: Agriculture, value added (% of GDP)"/>
 </config>
 </config>

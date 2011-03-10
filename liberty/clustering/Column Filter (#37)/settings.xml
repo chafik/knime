@@ -9,4 +9,8 @@
 <entry key="customName" type="xstring" value="Suppression données inutiles"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="node_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Some columns are not available: Country Name,Births attended by skilled health staff (% of total),Cash surplus/deficit (% of GDP),Contraceptive prevalence (% of women ages 15-49),External debt stocks, total (DOD, current US$),Gross capital formation (% of GDP),High-technology exports (% of manufactured exports),Income share held by lowest 20%,Malnutrition prevalence, weight for age (% of children under 5),Market capitalization of listed companies (% of GDP),Net barter terms of trade (2000 = 100),Official development assistance and official aid (current US$),Primary completion rate, total (% of relevant age group),Ratio of girls to boys in primary and secondary education (%),Revenue, excluding grants (% of GDP),Roads, paved (% of total roads),Total debt service (% of exports of goods, services and income)"/>
+</config>
 </config>

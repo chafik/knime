@@ -8,5 +8,9 @@
 </config>
 <entry key="customName" type="xstring" isnull="true" value=""/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="node_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Column 'Prevalence of HIV, total (% of population ages 15-49)' does not exist in input table"/>
+</config>
 </config>

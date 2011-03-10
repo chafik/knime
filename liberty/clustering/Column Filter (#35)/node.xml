@@ -4,51 +4,28 @@
 <config key="model">
 <entry key="selectionOption" type="xstring" value="EnforceExclusion"/>
 <config key="exclude">
-<entry key="array-size" type="xint" value="44"/>
-<entry key="0" type="xstring" value="Liberty Index"/>
-<entry key="1" type="xstring" value="Country Code"/>
-<entry key="2" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
-<entry key="3" type="xstring" value="Agriculture, value added (% of GDP)"/>
-<entry key="4" type="xstring" value="Births attended by skilled health staff (% of total)"/>
-<entry key="5" type="xstring" value="Cash surplus/deficit (% of GDP)"/>
-<entry key="6" type="xstring" value="Contraceptive prevalence (% of women ages 15-49)"/>
-<entry key="7" type="xstring" value="Exports of goods and services (% of GDP)"/>
-<entry key="8" type="xstring" value="External debt stocks, total (DOD, current US$)"/>
-<entry key="9" type="xstring" value="Fertility rate, total (births per woman)"/>
-<entry key="10" type="xstring" value="Foreign direct investment, net inflows (BoP, current US$)"/>
-<entry key="11" type="xstring" value="GDP (current US$)"/>
-<entry key="12" type="xstring" value="GDP growth (annual %)"/>
-<entry key="13" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
-<entry key="14" type="xstring" value="GNI per capita, PPP (current international $)"/>
-<entry key="15" type="xstring" value="GNI, Atlas method (current US$)"/>
-<entry key="16" type="xstring" value="GNI, PPP (current international $)"/>
-<entry key="17" type="xstring" value="Gross capital formation (% of GDP)"/>
-<entry key="18" type="xstring" value="High-technology exports (% of manufactured exports)"/>
-<entry key="19" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
-<entry key="20" type="xstring" value="Income share held by lowest 20%"/>
-<entry key="21" type="xstring" value="Industry, value added (% of GDP)"/>
-<entry key="22" type="xstring" value="Internet users (per 100 people)"/>
-<entry key="23" type="xstring" value="Life expectancy at birth, total (years)"/>
-<entry key="24" type="xstring" value="Malnutrition prevalence, weight for age (% of children under 5)"/>
-<entry key="25" type="xstring" value="Market capitalization of listed companies (% of GDP)"/>
-<entry key="26" type="xstring" value="Merchandise trade (% of GDP)"/>
-<entry key="27" type="xstring" value="Military expenditure (% of GDP)"/>
-<entry key="28" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
-<entry key="29" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
-<entry key="30" type="xstring" value="Official development assistance and official aid (current US$)"/>
-<entry key="31" type="xstring" value="Population growth (annual %)"/>
-<entry key="32" type="xstring" value="Population, total"/>
-<entry key="33" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
-<entry key="34" type="xstring" value="Primary completion rate, total (% of relevant age group)"/>
-<entry key="35" type="xstring" value="Ratio of girls to boys in primary and secondary education (%)"/>
-<entry key="36" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
-<entry key="37" type="xstring" value="Revenue, excluding grants (% of GDP)"/>
-<entry key="38" type="xstring" value="Roads, paved (% of total roads)"/>
-<entry key="39" type="xstring" value="Services, etc., value added (% of GDP)"/>
-<entry key="40" type="xstring" value="Surface area (sq. km)"/>
-<entry key="41" type="xstring" value="Time required to start a business (days)"/>
-<entry key="42" type="xstring" value="Total debt service (% of exports of goods, services and income)"/>
-<entry key="43" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
+<entry key="array-size" type="xint" value="21"/>
+<entry key="0" type="xstring" value="Country Code"/>
+<entry key="1" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+<entry key="2" type="xstring" value="Fertility rate, total (births per woman)"/>
+<entry key="3" type="xstring" value="GDP (current US$)"/>
+<entry key="4" type="xstring" value="GDP growth (annual %)"/>
+<entry key="5" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
+<entry key="6" type="xstring" value="GNI, Atlas method (current US$)"/>
+<entry key="7" type="xstring" value="GNI, PPP (current international $)"/>
+<entry key="8" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
+<entry key="9" type="xstring" value="Internet users (per 100 people)"/>
+<entry key="10" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="11" type="xstring" value="Merchandise trade (% of GDP)"/>
+<entry key="12" type="xstring" value="Military expenditure (% of GDP)"/>
+<entry key="13" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
+<entry key="14" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
+<entry key="15" type="xstring" value="Population growth (annual %)"/>
+<entry key="16" type="xstring" value="Population, total"/>
+<entry key="17" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="18" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
+<entry key="19" type="xstring" value="Services, etc., value added (% of GDP)"/>
+<entry key="20" type="xstring" value="Surface area (sq. km)"/>
 </config>
 </config>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -58,7 +35,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 156, Cols: 5"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 10"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>

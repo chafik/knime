@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="PCA"/>
+<config key="model">
+<config key="input_columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="input_columns">
+<config key="InclList">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+<entry key="1" type="xstring" value="Fertility rate, total (births per woman)"/>
+<entry key="2" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="3" type="xstring" value="Population growth (annual %)"/>
+<entry key="4" type="xstring" value="Population, total"/>
+<entry key="5" type="xstring" value="Surface area (sq. km)"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Liberty Index"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="removeColumns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="removeColumns" type="xboolean" value="true"/>
+<config key="failMissing_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="failMissing" type="xboolean" value="true"/>
+<config key="output_dimensions_selected_Internals">
+<entry key="SettingsModelID" type="xstring" value="SettingsModelChoiceIntDouble.modelTypeID"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="output_dimensions_selected">
+<entry key="choice" type="xboolean" value="false"/>
+<entry key="doubleVal" type="xdouble" value="99.0"/>
+<entry key="intVal" type="xint" value="7"/>
+<config key="eigenvalues"/>
+</config>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 2"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+</config>

@@ -9,8 +9,4 @@
 <entry key="customName" type="xstring" value="Filtre pays"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="node_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="HiLite status has changed, re-execute node to apply changes."/>
-</config>
 </config>

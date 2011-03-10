@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="boxPlotInternals">
+<entry key="numberOf" type="xint" value="7"/>
+<config key="colSpec0">
+<entry key="column_name" type="xstring" value="Social"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-3.539845158547477E9"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="3.512515484146391E10"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec1">
+<entry key="column_name" type="xstring" value="Liberty Index"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-0.167"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="7.167"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec2">
+<entry key="column_name" type="xstring" value="Santé"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-46.638241191711046"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="215.42818625523464"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec3">
+<entry key="column_name" type="xstring" value="Armée"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-916533.6341463054"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.6179666365853773E7"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec4">
+<entry key="column_name" type="xstring" value="Démographie"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-5.823759697274332E7"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.259626021435017E9"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec5">
+<entry key="column_name" type="xstring" value="Economie 1"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-2.2637122667318535E10"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.7988851162152917E11"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec6">
+<entry key="column_name" type="xstring" value="Economie 2"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-3.470052833142272E10"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1.3379806094393322E10"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="statsSocial">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-3.539845158547477E9"/>
+<entry key="1" type="xdouble" value="-3.539845158547477E9"/>
+<entry key="2" type="xdouble" value="-3.317845158530569E9"/>
+<entry key="3" type="xdouble" value="-2.2002536585307035E9"/>
+<entry key="4" type="xdouble" value="4.004948414694923E8"/>
+<entry key="5" type="xdouble" value="5.680154841469746E9"/>
+<entry key="6" type="xdouble" value="3.512515484146391E10"/>
+</config>
+<config key="mildrowSocial">
+<config key="mildrowSocial0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Germany"/>
+</config>
+<config key="mildrowSocial1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Poland"/>
+</config>
+<config key="mildrowSocial2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Spain"/>
+</config>
+<config key="mildrowSocial3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="France"/>
+</config>
+</config>
+<config key="mildSocial">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="6.298594841469743E9"/>
+<entry key="1" type="xdouble" value="6.95515484146954E9"/>
+<entry key="2" type="xdouble" value="7.198114841468801E9"/>
+<entry key="3" type="xdouble" value="1.0204564841467913E10"/>
+</config>
+<config key="extremerowSocial">
+<config key="extremerowSocial0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Mexico"/>
+</config>
+<config key="extremerowSocial1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="China"/>
+</config>
+<config key="extremerowSocial2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="India"/>
+</config>
+</config>
+<config key="extremeSocial">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="2.359555484146451E10"/>
+<entry key="1" type="xdouble" value="2.9292154841464462E10"/>
+<entry key="2" type="xdouble" value="3.512515484146391E10"/>
+</config>
+<config key="statsLiberty Index">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.167"/>
+<entry key="1" type="xdouble" value="-0.167"/>
+<entry key="2" type="xdouble" value="1.0"/>
+<entry key="3" type="xdouble" value="2.5"/>
+<entry key="4" type="xdouble" value="4.0"/>
+<entry key="5" type="xdouble" value="7.167"/>
+<entry key="6" type="xdouble" value="7.167"/>
+</config>
+<config key="mildrowLiberty Index"/>
+<config key="mildLiberty Index">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowLiberty Index"/>
+<config key="extremeLiberty Index">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsSanté">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-46.638241191711046"/>
+<entry key="1" type="xdouble" value="-46.638241191711046"/>
+<entry key="2" type="xdouble" value="-41.28633559742158"/>
+<entry key="3" type="xdouble" value="-24.530411612822817"/>
+<entry key="4" type="xdouble" value="26.831407940226494"/>
+<entry key="5" type="xdouble" value="124.33279843752041"/>
+<entry key="6" type="xdouble" value="215.42818625523464"/>
+</config>
+<config key="mildrowSanté">
+<config key="mildrowSanté0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Rwanda"/>
+</config>
+<config key="mildrowSanté1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Nigeria"/>
+</config>
+<config key="mildrowSanté2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Sierra Leone"/>
+</config>
+</config>
+<config key="mildSanté">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="131.7489558399989"/>
+<entry key="1" type="xdouble" value="144.88998440068465"/>
+<entry key="2" type="xdouble" value="215.42818625523464"/>
+</config>
+<config key="extremerowSanté"/>
+<config key="extremeSanté">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsArmée">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-916533.6341463054"/>
+<entry key="1" type="xdouble" value="-916533.6341463054"/>
+<entry key="2" type="xdouble" value="-834703.6341451857"/>
+<entry key="3" type="xdouble" value="-642958.6341461887"/>
+<entry key="4" type="xdouble" value="-165963.63414880706"/>
+<entry key="5" type="xdouble" value="647926.365853417"/>
+<entry key="6" type="xdouble" value="1.6179666365853773E7"/>
+</config>
+<config key="mildrowArmée">
+<config key="mildrowArmée0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Indonesia"/>
+</config>
+<config key="mildrowArmée1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Mexico"/>
+</config>
+<config key="mildrowArmée2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Algeria"/>
+</config>
+<config key="mildrowArmée3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Kazakhstan"/>
+</config>
+</config>
+<config key="mildArmée">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="985996.3658538709"/>
+<entry key="1" type="xdouble" value="1045806.3658543007"/>
+<entry key="2" type="xdouble" value="1463166.3658546004"/>
+<entry key="3" type="xdouble" value="1806326.3658538132"/>
+</config>
+<config key="extremerowArmée">
+<config key="extremerowArmée0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Argentina"/>
+</config>
+<config key="extremerowArmée1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="India"/>
+</config>
+<config key="extremerowArmée2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Brazil"/>
+</config>
+<config key="extremerowArmée3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="China"/>
+</config>
+<config key="extremerowArmée4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Russian Federation"/>
+</config>
+</config>
+<config key="extremeArmée">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="1861826.3658543392"/>
+<entry key="1" type="xdouble" value="2368686.365853357"/>
+<entry key="2" type="xdouble" value="7596306.365853786"/>
+<entry key="3" type="xdouble" value="8679514.365854638"/>
+<entry key="4" type="xdouble" value="1.6179666365853773E7"/>
+</config>
+<config key="statsDémographie">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-5.823759697274332E7"/>
+<entry key="1" type="xdouble" value="-5.823759697274332E7"/>
+<entry key="2" type="xdouble" value="-5.342693669858639E7"/>
+<entry key="3" type="xdouble" value="-4.7173466104667425E7"/>
+<entry key="4" type="xdouble" value="-2.059584513927023E7"/>
+<entry key="5" type="xdouble" value="2.6437742339179754E7"/>
+<entry key="6" type="xdouble" value="1.259626021435017E9"/>
+</config>
+<config key="mildrowDémographie">
+<config key="mildrowDémographie0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Mexico"/>
+</config>
+</config>
+<config key="mildDémographie">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="4.657283786782533E7"/>
+</config>
+<config key="extremerowDémographie">
+<config key="extremerowDémographie0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Russian Federation"/>
+</config>
+<config key="extremerowDémographie1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Nigeria"/>
+</config>
+<config key="extremerowDémographie2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Pakistan"/>
+</config>
+<config key="extremerowDémographie3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Brazil"/>
+</config>
+<config key="extremerowDémographie4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Indonesia"/>
+</config>
+<config key="extremerowDémographie5">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="India"/>
+</config>
+<config key="extremerowDémographie6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="China"/>
+</config>
+</config>
+<config key="extremeDémographie">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="8.348277758475238E7"/>
+<entry key="1" type="xdouble" value="8.926822391310711E7"/>
+<entry key="2" type="xdouble" value="1.0376564998020482E8"/>
+<entry key="3" type="xdouble" value="1.314502208125382E8"/>
+<entry key="4" type="xdouble" value="1.669198462343146E8"/>
+<entry key="5" type="xdouble" value="1.066068804134679E9"/>
+<entry key="6" type="xdouble" value="1.259626021435017E9"/>
+</config>
+<config key="statsEconomie 1">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-2.2637122667318535E10"/>
+<entry key="1" type="xdouble" value="-2.2637122667318535E10"/>
+<entry key="2" type="xdouble" value="-1.7595632758932945E10"/>
+<entry key="3" type="xdouble" value="-1.5785232534016232E10"/>
+<entry key="4" type="xdouble" value="-7.804441602604685E9"/>
+<entry key="5" type="xdouble" value="5.625323122836219E9"/>
+<entry key="6" type="xdouble" value="1.7988851162152917E11"/>
+</config>
+<config key="mildrowEconomie 1">
+<config key="mildrowEconomie 10">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="India"/>
+</config>
+<config key="mildrowEconomie 11">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Mexico"/>
+</config>
+<config key="mildrowEconomie 12">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Austria"/>
+</config>
+<config key="mildrowEconomie 13">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Brazil"/>
+</config>
+<config key="mildrowEconomie 14">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Hungary"/>
+</config>
+</config>
+<config key="mildEconomie 1">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="7.503132153268025E9"/>
+<entry key="1" type="xdouble" value="8.46339576261911E9"/>
+<entry key="2" type="xdouble" value="1.2861320335985292E10"/>
+<entry key="3" type="xdouble" value="1.6815638048479761E10"/>
+<entry key="4" type="xdouble" value="1.933170276940831E10"/>
+</config>
+<config key="extremerowEconomie 1">
+<config key="extremerowEconomie 10">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Italy"/>
+</config>
+<config key="extremerowEconomie 11">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Germany"/>
+</config>
+<config key="extremerowEconomie 12">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Russian Federation"/>
+</config>
+<config key="extremerowEconomie 13">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Spain"/>
+</config>
+<config key="extremerowEconomie 14">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Belgium"/>
+</config>
+<config key="extremerowEconomie 15">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Netherlands"/>
+</config>
+<config key="extremerowEconomie 16">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="China"/>
+</config>
+<config key="extremerowEconomie 17">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="France"/>
+</config>
+<config key="extremerowEconomie 18">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Luxembourg"/>
+</config>
+<config key="extremerowEconomie 19">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="United Kingdom"/>
+</config>
+</config>
+<config key="extremeEconomie 1">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xdouble" value="2.217704958028535E10"/>
+<entry key="1" type="xdouble" value="3.4101458163285202E10"/>
+<entry key="2" type="xdouble" value="3.728009359980144E10"/>
+<entry key="3" type="xdouble" value="4.2720954954017365E10"/>
+<entry key="4" type="xdouble" value="5.462063956387194E10"/>
+<entry key="5" type="xdouble" value="1.0551663752708525E11"/>
+<entry key="6" type="xdouble" value="1.2231635245357239E11"/>
+<entry key="7" type="xdouble" value="1.4204017918048495E11"/>
+<entry key="8" type="xdouble" value="1.6981626009871213E11"/>
+<entry key="9" type="xdouble" value="1.7988851162152917E11"/>
+</config>
+<config key="statsEconomie 2">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-3.470052833142272E10"/>
+<entry key="1" type="xdouble" value="-4.346482999587803E9"/>
+<entry key="2" type="xdouble" value="-6.924591160610275E8"/>
+<entry key="3" type="xdouble" value="1.814379309702077E9"/>
+<entry key="4" type="xdouble" value="2.2437699981750937E9"/>
+<entry key="5" type="xdouble" value="3.3073202470831137E9"/>
+<entry key="6" type="xdouble" value="1.3379806094393322E10"/>
+</config>
+<config key="mildrowEconomie 2">
+<config key="mildrowEconomie 20">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Poland"/>
+</config>
+<config key="mildrowEconomie 21">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Nigeria"/>
+</config>
+<config key="mildrowEconomie 22">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Romania"/>
+</config>
+<config key="mildrowEconomie 23">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="United Kingdom"/>
+</config>
+<config key="mildrowEconomie 24">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Netherlands"/>
+</config>
+</config>
+<config key="mildEconomie 2">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="-6.593183842030024E9"/>
+<entry key="1" type="xdouble" value="-6.451128988005698E9"/>
+<entry key="2" type="xdouble" value="-5.542580063890202E9"/>
+<entry key="3" type="xdouble" value="7.372033989838481E9"/>
+<entry key="4" type="xdouble" value="8.078525096610399E9"/>
+</config>
+<config key="extremerowEconomie 2">
+<config key="extremerowEconomie 20">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="India"/>
+</config>
+<config key="extremerowEconomie 21">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Mexico"/>
+</config>
+<config key="extremerowEconomie 22">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="China"/>
+</config>
+<config key="extremerowEconomie 23">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Luxembourg"/>
+</config>
+</config>
+<config key="extremeEconomie 2">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="-3.470052833142272E10"/>
+<entry key="1" type="xdouble" value="-2.3080517362381023E10"/>
+<entry key="2" type="xdouble" value="-2.1147057253901535E10"/>
+<entry key="3" type="xdouble" value="1.3379806094393322E10"/>
+</config>
+</config>
