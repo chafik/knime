@@ -13,7 +13,7 @@
 </config>
 <entry key="max_nominal_values" type="xint" value="60"/>
 </config>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 </config>

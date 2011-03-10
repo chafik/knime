@@ -4,7 +4,7 @@
 <config key="model">
 <entry key="selectionOption" type="xstring" value="EnforceExclusion"/>
 <config key="exclude">
-<entry key="array-size" type="xint" value="25"/>
+<entry key="array-size" type="xint" value="26"/>
 <entry key="0" type="xstring" value="Country Code"/>
 <entry key="1" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
 <entry key="2" type="xstring" value="Agriculture, value added (% of GDP)"/>
@@ -26,10 +26,11 @@
 <entry key="18" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
 <entry key="19" type="xstring" value="Population growth (annual %)"/>
 <entry key="20" type="xstring" value="Population, total"/>
-<entry key="21" type="xstring" value="Services, etc., value added (% of GDP)"/>
-<entry key="22" type="xstring" value="Surface area (sq. km)"/>
-<entry key="23" type="xstring" value="Time required to start a business (days)"/>
-<entry key="24" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
+<entry key="21" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
+<entry key="22" type="xstring" value="Services, etc., value added (% of GDP)"/>
+<entry key="23" type="xstring" value="Surface area (sq. km)"/>
+<entry key="24" type="xstring" value="Time required to start a business (days)"/>
+<entry key="25" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
 </config>
 </config>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -39,7 +40,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>

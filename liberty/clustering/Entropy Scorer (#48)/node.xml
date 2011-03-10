@@ -5,12 +5,15 @@
 <entry key="reference_table_col_column" type="xstring" value="Liberty class"/>
 <entry key="clustering_table_col_column" type="xstring" value="Cluster"/>
 </config>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 </config>

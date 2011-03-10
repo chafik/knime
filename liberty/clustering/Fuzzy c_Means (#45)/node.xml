@@ -7,24 +7,13 @@
 <entry key="maxiterations" type="xint" value="99"/>
 <entry key="fuzzifier" type="xdouble" value="2.0"/>
 <config key="exclude">
-<entry key="array-size" type="xint" value="17"/>
+<entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="Liberty Index"/>
-<entry key="1" type="xstring" value="Agriculture, value added (% of GDP)"/>
-<entry key="2" type="xstring" value="Exports of goods and services (% of GDP)"/>
-<entry key="3" type="xstring" value="Foreign direct investment, net inflows (BoP, current US$)"/>
-<entry key="4" type="xstring" value="GDP (current US$)"/>
-<entry key="5" type="xstring" value="GDP growth (annual %)"/>
-<entry key="6" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
-<entry key="7" type="xstring" value="GNI per capita, PPP (current international $)"/>
-<entry key="8" type="xstring" value="GNI, Atlas method (current US$)"/>
-<entry key="9" type="xstring" value="GNI, PPP (current international $)"/>
-<entry key="10" type="xstring" value="Imports of goods and services (% of GDP)"/>
-<entry key="11" type="xstring" value="Industry, value added (% of GDP)"/>
-<entry key="12" type="xstring" value="Inflation, GDP deflator (annual %)"/>
-<entry key="13" type="xstring" value="Merchandise trade (% of GDP)"/>
-<entry key="14" type="xstring" value="Services, etc., value added (% of GDP)"/>
-<entry key="15" type="xstring" value="Time required to start a business (days)"/>
-<entry key="16" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
+<entry key="1" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
+<entry key="2" type="xstring" value="Fertility rate, total (births per woman)"/>
+<entry key="3" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="4" type="xstring" value="Military expenditure (% of GDP)"/>
+<entry key="5" type="xstring" value="Surface area (sq. km)"/>
 </config>
 <entry key="noise" type="xboolean" value="false"/>
 <entry key="lambda" type="xdouble" value="0.1"/>
@@ -32,16 +21,24 @@
 <entry key="memory" type="xboolean" value="true"/>
 <entry key="measures" type="xboolean" value="true"/>
 </config>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 15"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.cluster.PMMLClusterPortObject"/>
+<entry key="port_object_summary" type="xstring" value="ClusteringModel with 7 cluster: cluster_0, cluster_1, cluster_2, cluster_3, cluster_4, cluster_5, cluster_6"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 </config>

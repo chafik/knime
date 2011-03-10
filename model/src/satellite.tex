@@ -24,13 +24,13 @@ au sein d'une dictature se réduisant aux membres du régime, on s'attend à tro
 \item [Mobile cellular suscriptions]
 Le fort contrôle des moyens de communication de la part d'un régime totalitaire pourrait induire une utilisation de la télphonie mobile très limitée. //reformuler
  
-\end{description} 
+\end{description}
 
-\graph{correlation_social}{Corrélation des différents attributs choisis dans la catégorie \emph{Social}}
+\graph{correlation_social}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Social}}
 Les attributs ayant trait aux nouvelles technologies de l'information sont linéairement corrélés, pour des raisons évidentes. De manière plus surprenante, la fécondité des adolescents semble se rapprocher d'une fonction linéaire décroissante du taux d'accès à Internet\ldots
 Sans nous livrer à des conclusions trop hâtives, nous ne considérerons cependant que le taux d'accès Internet en tant qu'attribut représentant les trois.
 
-\subsubsection{Santé} 
+\subsubsection{Santé}
 \begin{description}
 \item [Immunization]
 Cet attribut est étroitement lié aux impacts de la liberté sur les aspects économiques d'un pays. Un pays totalitaire
@@ -44,7 +44,10 @@ Les engagements militaires d'un tel pays entraineraient des pertes humaines cons
 \item [HIV]
 Un indice de liberté très bas augementerait le nombre de personnes atteintes de maladies. En particulier le SIDA.
 \end{description}
- 
+
+\graph{correlation_sante}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Santé}}
+Comme tous les attributs sont corrélés entre eux (on peut trouver au maximum deux attributs ayant un coefficient de corrélation linéaire relativement faible), il est difficile de continuer l'étude sur ce seul groupe d'attributs. Nous verrons par la suite comment remédier à ce problème.
+
 \subsubsection{Armée}
 \begin{description}
 \item [Adolescent fertility rate]
@@ -56,10 +59,12 @@ On s'attend à trouver un lien entre le taux de fécondité et l'indice de liber
 \item [Life expectancy]
 Cf plus haut.
 \item [Surface]
-Un grand pays en terme de surface pourrait être difficilement controlable par un régime totalitaire. Il posséderait donc un indice de liberté plus important qu'un pays plus petit en surface.
+Un grand pays en terme de surface pourrait être difficilement controlable par une dictature militaire. Il posséderait donc un indice de liberté plus important qu'un pays plus petit en surface.
 \end{description}
- 
- 
+
+\graph{correlation_armee}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Armée}}
+Sans surprise, le taux de fécondité des adolescentes est fortement lié à celui des femmes en général. De même, l'espérance de vie est fortement liée à ces taux de fécondité. On ne retiendra donc que l'espérance de vie.
+
 \subsubsection{Démographie} 
 \begin{description}
 \item [Fertility rate]

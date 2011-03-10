@@ -8,9 +8,5 @@
 </config>
 <entry key="customName" type="xstring" value="Vérification corrélation"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="node_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="No such column: Country Name"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 </config>

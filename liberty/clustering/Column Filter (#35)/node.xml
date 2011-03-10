@@ -4,21 +4,26 @@
 <config key="model">
 <entry key="selectionOption" type="xstring" value="EnforceExclusion"/>
 <config key="exclude">
-<entry key="array-size" type="xint" value="14"/>
+<entry key="array-size" type="xint" value="19"/>
 <entry key="0" type="xstring" value="Country Code"/>
 <entry key="1" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
 <entry key="2" type="xstring" value="Fertility rate, total (births per woman)"/>
-<entry key="3" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
-<entry key="4" type="xstring" value="Internet users (per 100 people)"/>
-<entry key="5" type="xstring" value="Life expectancy at birth, total (years)"/>
-<entry key="6" type="xstring" value="Military expenditure (% of GDP)"/>
-<entry key="7" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
-<entry key="8" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
-<entry key="9" type="xstring" value="Population growth (annual %)"/>
-<entry key="10" type="xstring" value="Population, total"/>
-<entry key="11" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
-<entry key="12" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
-<entry key="13" type="xstring" value="Surface area (sq. km)"/>
+<entry key="3" type="xstring" value="GDP (current US$)"/>
+<entry key="4" type="xstring" value="GDP growth (annual %)"/>
+<entry key="5" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
+<entry key="6" type="xstring" value="GNI, Atlas method (current US$)"/>
+<entry key="7" type="xstring" value="GNI, PPP (current international $)"/>
+<entry key="8" type="xstring" value="Immunization, measles (% of children ages 12-23 months)"/>
+<entry key="9" type="xstring" value="Internet users (per 100 people)"/>
+<entry key="10" type="xstring" value="Life expectancy at birth, total (years)"/>
+<entry key="11" type="xstring" value="Military expenditure (% of GDP)"/>
+<entry key="12" type="xstring" value="Mobile cellular subscriptions (per 100 people)"/>
+<entry key="13" type="xstring" value="Mortality rate, under-5 (per 1,000)"/>
+<entry key="14" type="xstring" value="Population growth (annual %)"/>
+<entry key="15" type="xstring" value="Population, total"/>
+<entry key="16" type="xstring" value="Prevalence of HIV, total (% of population ages 15-49)"/>
+<entry key="17" type="xstring" value="Renewable internal freshwater resources per capita (cubic meters)"/>
+<entry key="18" type="xstring" value="Surface area (sq. km)"/>
 </config>
 </config>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -28,7 +33,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 17"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 12"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="17"/>
+<entry key="number_columns" type="xint" value="12"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="Liberty Index"/>
 <config key="element_names">
@@ -99,78 +99,6 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_4">
-<entry key="column_name" type="xstring" value="GDP (current US$)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="6.43509547738693E8"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="3.38226749917844E12"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_5">
-<entry key="column_name" type="xstring" value="GDP growth (annual %)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="-1.59"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="25.049"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_6">
-<entry key="column_name" type="xstring" value="GNI per capita, Atlas method (current US$)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="150.0"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="79060.0"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="GNI per capita, PPP (current international $)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -194,55 +122,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_8">
-<entry key="column_name" type="xstring" value="GNI, Atlas method (current US$)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="5.30632081110549E8"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="3.20750124892296E12"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_9">
-<entry key="column_name" type="xstring" value="GNI, PPP (current international $)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-</config>
-<config key="column_domain">
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.02402713325187E9"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="7.15445856716422E12"/>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_10">
+<config key="column_spec_5">
 <entry key="column_name" type="xstring" value="Imports of goods and services (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -266,7 +146,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_11">
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="Industry, value added (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -290,7 +170,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_12">
+<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="Inflation, GDP deflator (annual %)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -314,7 +194,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_13">
+<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="Merchandise trade (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -338,7 +218,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_14">
+<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="Services, etc., value added (% of GDP)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -362,7 +242,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_15">
+<config key="column_spec_10">
 <entry key="column_name" type="xstring" value="Time required to start a business (days)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -386,7 +266,7 @@
 </config>
 <config key="column_properties"/>
 </config>
-<config key="column_spec_16">
+<config key="column_spec_11">
 <entry key="column_name" type="xstring" value="Workers' remittances and compensation of employees, received (current US$)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
