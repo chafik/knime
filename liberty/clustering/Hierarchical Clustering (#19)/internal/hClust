@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="hClust">
-<entry key="distance" type="xdouble" value="4.035654067993164"/>
+<entry key="distance" type="xdouble" value="0.7333999872207642"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
-<entry key="distance" type="xdouble" value="1.284321904182434"/>
+<entry key="distance" type="xdouble" value="0.23340000212192535"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
-<entry key="distance" type="xdouble" value="0.18378899991512299"/>
+<entry key="distance" type="xdouble" value="0.033399999141693115"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -38,7 +38,7 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.09189449995756149"/>
+<entry key="distance" type="xdouble" value="0.016699999570846558"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -68,10 +68,10 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.642160952091217"/>
+<entry key="distance" type="xdouble" value="0.11670000106096268"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
-<entry key="distance" type="xdouble" value="0.09189449995756149"/>
+<entry key="distance" type="xdouble" value="0.016699999570846558"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -166,7 +166,7 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.2751332223415375"/>
+<entry key="distance" type="xdouble" value="0.05000000074505806"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -176,7 +176,7 @@
 <config key="rightChild"/>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.09189449995756149"/>
+<entry key="distance" type="xdouble" value="0.016699999570846558"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -274,10 +274,10 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="2.384854793548584"/>
+<entry key="distance" type="xdouble" value="0.4334000051021576"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
-<entry key="distance" type="xdouble" value="0.642160952091217"/>
+<entry key="distance" type="xdouble" value="0.11670000106096268"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -287,7 +287,7 @@
 <config key="rightChild"/>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.09189449995756149"/>
+<entry key="distance" type="xdouble" value="0.016699999570846558"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -328,10 +328,10 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="1.192427396774292"/>
+<entry key="distance" type="xdouble" value="0.2167000025510788"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
-<entry key="distance" type="xdouble" value="0.18378899991512299"/>
+<entry key="distance" type="xdouble" value="0.033399999141693115"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -352,7 +352,7 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.09189449995756149"/>
+<entry key="distance" type="xdouble" value="0.016699999570846558"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -481,7 +481,7 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.550266444683075"/>
+<entry key="distance" type="xdouble" value="0.10000000149011612"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
@@ -535,7 +535,7 @@
 </config>
 </config>
 <config key="rightChild">
-<entry key="distance" type="xdouble" value="0.09189449995756149"/>
+<entry key="distance" type="xdouble" value="0.016699999570846558"/>
 <entry key="isLeaf" type="xboolean" value="false"/>
 <config key="leftChild">
 <entry key="distance" type="xdouble" value="0.0"/>
