@@ -57,12 +57,13 @@
 </config>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
+<entry key="node_message" type="xstring" value="Some columns are not available: Country Name,Births attended by skilled health staff (% of total),Cash surplus/deficit (% of GDP),Contraceptive prevalence (% of women ages 15-49),External debt stocks, total (DOD, current US$),Gross capital formation (% of GDP),High-technology exports (% of manufactured exports),Income share held by lowest 20%,Malnutrition prevalence, weight for age (% of children under 5),Market capitalization of listed companies (% of GDP),Net barter terms of trade (2000 = 100),Official development assistance and official aid (current US$),Primary completion rate, total (% of relevant age group),Ratio of girls to boys in primary and secondary education (%),Revenue, excluding grants (% of GDP),Roads, paved (% of total roads),Total debt service (% of exports of goods, services and income)"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 208, Cols: 48"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 31"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>

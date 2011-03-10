@@ -8,5 +8,5 @@
 </config>
 <entry key="customName" type="xstring" value="Détermination classes liberté"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 </config>
