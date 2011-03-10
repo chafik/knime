@@ -1,33 +1,105 @@
-\section{Prise en main de latex}
-\subsection{Installation}
-	\begin{description}
-		\item[Linux]~\\
-			\texttt{sudo aptitude install texlive-full}
-		\item[Windows]~\\
-			\href{http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip}{lien}
-	\end{description}
+\section{Introduction}
+\subsection{Contexte}
+-Blabla : objectifs du projets ...
+-Rappel des données et des outils
+\subsection{Problématique}
+-Blabla sur l'actualité
+-En fonction des résultats ou bien 
+- "Lien entre liberté civile et données démographique, santé, armée, économie, sociale..."?
+- Ensuite chercher à trouver (générer) les indices de liberté à partir des résultats (liens, modèles) établis
+\section{Détermination du champ d'étude}
+\subsection{Identification des attributs pertinents}
+-Visualisation sous forme de diagrammes (lignes parallèles, scatter...)
+Blabla plus interessant
+-Justification des choix d'attributs pour chaque axe de recherche (santé, démographie...)
+\subsubsection{Social}
+\begin{description}
+\item [Adolescent fertility rate] 
+Voir yoyo
+\item [Worker's remittances and compensation of employees]
+Je ne sais pas ce que c'est
+\item [Internet users]
+Les aspects de censure liés aux dictatures se traduiraient par un usage très limité d'internet. Aussi le nombre d'internautes 
+au sein d'une dictature se réduisant aux membres du régime, on s'attend à trouver une relation proportionnelle entre l'indice de liberté et le nombre d'internautes. 
+\item [Mobile cellular suscriptions]
+Le fort contrôle des moyens de communication de la part d'un régime totalitaire pourrait induire une utilisation de la télphonie mobile très limitée. //reformuler
+ 
+\end{description} 
+\subsubsection{Santé} 
+\begin{description}
+\item Immunization
+Cet attribut est étroitement lié aux impacts de la liberté sur les aspects économiques d'un pays. Un pays totalitaire
+accorderait peu d'importance aux achats (imports ?) de vaccins contrairement aux investissements de l'armement militaire.
+\item Life expectancy
+On pourrait croire que les libertés d'un pays influence l'esperance de vie de sa population. Cette hypothèse serait une conséquence
+des autres attributs qui lieraient indice de liberté aux aspects économiques et sociales d'un pays. En d'autres termes, moins un pays est libre plus sa situation sociale et sanitaire se dégrade, plus l'espérance de vie décroit.
+\item Mortality rate
+Un pays dépourvu de liberté pourrait avoir un taux de mortalité important dans la mesure où les mouvements des opposants sont réprimés par des peines de mort.
+Les engagements militaires d'un tel pays entraineraient des pertes humaines considérables et donc un taux de mortalité élevé.
+\item HIV
 
-\subsection{Compilation}
-	Pour simplifier le processus, j'ai fais un Makefile qui automatise le processus.
-	il peut être remplaçé par :\\
-		\texttt{\$ cp src\/*.tex tmp\/}\\
-		\texttt{\$ cd tmp\/}\\		
-		\texttt{\$ pdflatex main.tex}\\
-		\texttt{\$ mv main.pdf ..\/bin\/}\\
+\item Eau douce
+\end{description}
+ 
+ 
+\subsubsection{Armée}
+\begin{description}
+\item Adolescent
+\item Milliraty
+\item Fertility
+\item Life expectancy
+\item Surface
+\end{description}
+ 
+ 
+\subsubsection{Démographie} 
+\begin{description}
+\item Fertility rate
+\item Adolescent fertility
+\item Population totale
+\item Population growth
+\item Life expectancy
+\item Surface
+ 
+\end{description}
+ 
+\subsubsection{Economie}
+\begin{description}
+\item [Voir knime] 
+\end{description}
 
-\section{Quelques exemples en latex}
-\subsection{formattage de texte}
+\subsection{Introduction d'un nouvel attribut}
+-Blabla site internet, organisation
+-Pb : absence données sous forme de fichiers exploitable directement (cvs) d'ou le script (merci yoyo)
+\subsection{Choix des pays à étudier}
+-décompostion géographique ??
 
-	\textbf{gras}\\
-	\textit{italique}\\
-	\emph{emphatique}\\
-	\texttt{chasse fixe}\\
+\subsection{Elimination des outliers}
+-Diagrammes (Scatter Plot, Boites à moustache...)
+-1D, 2D plus de 2D(cahier de parrain)
+\subsection{Discrétisation de la dimension \og liberté \fg}
+Blabla
+-Clustering hiérarchique
+-K-Means (ne pas oublier de parler de la stabilité)
+\section{Classification non supervisée}
+\section{Classification supervisée}
+\section{Conclusion}
 
-\subsection{Les listes}
-		
-	\begin{itemize}
-	\item un item
-	\item un deuxième item
-		\subitem un sous item
-	\item un troisème item
-	\end{itemize}
+
+
+L'objectif de ce projet est d'exploiter un jeu de données	
+	
+-Objectifs
+
+\section{Selection}
+
+\section{Missing value}
+\section{Correlation}
+\section{Outliers}
+
+\section{Normalisation}
+
+
+Décomposer les pays en cluster en fonction des dépenses militaires
+
+
