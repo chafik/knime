@@ -6,13 +6,14 @@
 <entry key="newmin" type="xdouble" value="0.0"/>
 <entry key="newmax" type="xdouble" value="1.0"/>
 <config key="columns">
-<entry key="array-size" type="xint" value="6"/>
-<entry key="0" type="xstring" value="Liberty Index"/>
-<entry key="1" type="xstring" value="Adolescent fertility rate (births per 1,000 women ages 15-19)"/>
-<entry key="2" type="xstring" value="Fertility rate, total (births per woman)"/>
-<entry key="3" type="xstring" value="Life expectancy at birth, total (years)"/>
-<entry key="4" type="xstring" value="Military expenditure (% of GDP)"/>
-<entry key="5" type="xstring" value="Surface area (sq. km)"/>
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Social"/>
+<entry key="1" type="xstring" value="Liberty Index"/>
+<entry key="2" type="xstring" value="Santé"/>
+<entry key="3" type="xstring" value="Armée"/>
+<entry key="4" type="xstring" value="Démographie"/>
+<entry key="5" type="xstring" value="Economie 1"/>
+<entry key="6" type="xstring" value="Economie 2"/>
 </config>
 <entry key="all_numeric_columns_used" type="xboolean" value="true"/>
 </config>
@@ -23,14 +24,14 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 6"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 82, Cols: 7"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-<entry key="port_object_summary" type="xstring" value="Z-Score (Gaussian) normalization on 6 column(s)"/>
+<entry key="port_object_summary" type="xstring" value="Z-Score (Gaussian) normalization on 7 column(s)"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>

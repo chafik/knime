@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="7"/>
+<entry key="ignoredColumns" type="xint" value="0"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xint" value="5"/>
+<entry key="1" type="xint" value="3"/>
+<entry key="2" type="xint" value="9"/>
+<entry key="3" type="xint" value="16"/>
+<entry key="4" type="xint" value="6"/>
+<entry key="5" type="xint" value="4"/>
+<entry key="6" type="xint" value="14"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.17965788287931692"/>
+<entry key="1" type="xdouble" value="0.9721584298879691"/>
+<entry key="2" type="xdouble" value="-0.48967412435060015"/>
+<entry key="3" type="xdouble" value="-0.31153088604213625"/>
+<entry key="4" type="xdouble" value="-0.16718501053944518"/>
+<entry key="5" type="xdouble" value="-0.37985565248890724"/>
+<entry key="6" type="xdouble" value="0.02560918676570485"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.4330832447132183"/>
+<entry key="1" type="xdouble" value="1.8648373572638126"/>
+<entry key="2" type="xdouble" value="0.012354368879845756"/>
+<entry key="3" type="xdouble" value="-0.30787194387841527"/>
+<entry key="4" type="xdouble" value="-0.2311694259188747"/>
+<entry key="5" type="xdouble" value="-0.42710186732529537"/>
+<entry key="6" type="xdouble" value="0.2823376378234966"/>
+</config>
+<config key="kMeansCluster2">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.47790506920363934"/>
+<entry key="1" type="xdouble" value="-0.13244645143914638"/>
+<entry key="2" type="xdouble" value="0.7956735075262752"/>
+<entry key="3" type="xdouble" value="-0.16589208962709462"/>
+<entry key="4" type="xdouble" value="-0.23519764398472695"/>
+<entry key="5" type="xdouble" value="-0.42160231346175414"/>
+<entry key="6" type="xdouble" value="0.33399982832007513"/>
+</config>
+<config key="kMeansCluster3">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.16095482042183587"/>
+<entry key="1" type="xdouble" value="-0.04010486199623192"/>
+<entry key="2" type="xdouble" value="-0.40219794239026285"/>
+<entry key="3" type="xdouble" value="-0.20863327374904037"/>
+<entry key="4" type="xdouble" value="-0.22708571115604909"/>
+<entry key="5" type="xdouble" value="-0.37502123051394726"/>
+<entry key="6" type="xdouble" value="0.007270825304983327"/>
+</config>
+<config key="kMeansCluster4">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.5067656585248176"/>
+<entry key="1" type="xdouble" value="1.0088061757763749"/>
+<entry key="2" type="xdouble" value="1.0979731520915303"/>
+<entry key="3" type="xdouble" value="-0.254756821755319"/>
+<entry key="4" type="xdouble" value="-0.18535197631315015"/>
+<entry key="5" type="xdouble" value="-0.4373563000665488"/>
+<entry key="6" type="xdouble" value="0.358552711547985"/>
+</config>
+<config key="kMeansCluster5">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.5198617112201911"/>
+<entry key="1" type="xdouble" value="1.4444796413491274"/>
+<entry key="2" type="xdouble" value="1.9487834438947544"/>
+<entry key="3" type="xdouble" value="-0.1413079199358658"/>
+<entry key="4" type="xdouble" value="-0.21305799485292437"/>
+<entry key="5" type="xdouble" value="-0.4314354161321858"/>
+<entry key="6" type="xdouble" value="0.3755952638949416"/>
+</config>
+<config key="kMeansCluster6">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="-0.363763894981521"/>
+<entry key="1" type="xdouble" value="-1.159518789287637"/>
+<entry key="2" type="xdouble" value="-0.7317799023925756"/>
+<entry key="3" type="xdouble" value="-0.2996532452236016"/>
+<entry key="4" type="xdouble" value="-0.26396661107922914"/>
+<entry key="5" type="xdouble" value="-0.29825287143112245"/>
+<entry key="6" type="xdouble" value="0.264457917403954"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="Social"/>
+<entry key="1" type="xstring" value="Liberty Index"/>
+<entry key="2" type="xstring" value="Santé"/>
+<entry key="3" type="xstring" value="Armée"/>
+<entry key="4" type="xstring" value="Démographie"/>
+<entry key="5" type="xstring" value="Economie 1"/>
+<entry key="6" type="xstring" value="Economie 2"/>
+</config>
+<config key="HiLiteMapping">
+<config key="cluster_5">
+<entry key="cluster_5" type="xstring" value="cluster_5"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Zambia"/>
+<entry key="1" type="xstring" value="Mozambique"/>
+<entry key="2" type="xstring" value="Cameroon"/>
+<entry key="3" type="xstring" value="Cote d'Ivoire"/>
+</config>
+</config>
+<config key="cluster_6">
+<entry key="cluster_6" type="xstring" value="cluster_6"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="Portugal"/>
+<entry key="1" type="xstring" value="Estonia"/>
+<entry key="2" type="xstring" value="Slovenia"/>
+<entry key="3" type="xstring" value="Finland"/>
+<entry key="4" type="xstring" value="Ukraine"/>
+<entry key="5" type="xstring" value="Uruguay"/>
+<entry key="6" type="xstring" value="Lithuania"/>
+<entry key="7" type="xstring" value="Chile"/>
+<entry key="8" type="xstring" value="Slovak Republic"/>
+<entry key="9" type="xstring" value="Mauritius"/>
+<entry key="10" type="xstring" value="Denmark"/>
+<entry key="11" type="xstring" value="Latvia"/>
+<entry key="12" type="xstring" value="Norway"/>
+<entry key="13" type="xstring" value="Sweden"/>
+</config>
+</config>
+<config key="cluster_4">
+<entry key="cluster_4" type="xstring" value="cluster_4"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Cambodia"/>
+<entry key="1" type="xstring" value="Ethiopia"/>
+<entry key="2" type="xstring" value="Swaziland"/>
+<entry key="3" type="xstring" value="Uganda"/>
+<entry key="4" type="xstring" value="Gabon"/>
+<entry key="5" type="xstring" value="Malawi"/>
+</config>
+</config>
+<config key="cluster_3">
+<entry key="cluster_3" type="xstring" value="cluster_3"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="16"/>
+<entry key="0" type="xstring" value="Morocco"/>
+<entry key="1" type="xstring" value="Paraguay"/>
+<entry key="2" type="xstring" value="Ecuador"/>
+<entry key="3" type="xstring" value="Greece"/>
+<entry key="4" type="xstring" value="Thailand"/>
+<entry key="5" type="xstring" value="Mongolia"/>
+<entry key="6" type="xstring" value="Lebanon"/>
+<entry key="7" type="xstring" value="Colombia"/>
+<entry key="8" type="xstring" value="Kyrgyz Republic"/>
+<entry key="9" type="xstring" value="El Salvador"/>
+<entry key="10" type="xstring" value="Honduras"/>
+<entry key="11" type="xstring" value="Botswana"/>
+<entry key="12" type="xstring" value="Croatia"/>
+<entry key="13" type="xstring" value="Dominican Republic"/>
+<entry key="14" type="xstring" value="Peru"/>
+<entry key="15" type="xstring" value="Georgia"/>
+</config>
+</config>
+<config key="cluster_2">
+<entry key="cluster_2" type="xstring" value="cluster_2"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Liberia"/>
+<entry key="1" type="xstring" value="Lesotho"/>
+<entry key="2" type="xstring" value="Ghana"/>
+<entry key="3" type="xstring" value="Senegal"/>
+<entry key="4" type="xstring" value="Papua New Guinea"/>
+<entry key="5" type="xstring" value="South Africa"/>
+<entry key="6" type="xstring" value="Namibia"/>
+<entry key="7" type="xstring" value="Madagascar"/>
+<entry key="8" type="xstring" value="Bolivia"/>
+</config>
+</config>
+<config key="cluster_1">
+<entry key="cluster_1" type="xstring" value="cluster_1"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Belarus"/>
+<entry key="1" type="xstring" value="Nepal"/>
+<entry key="2" type="xstring" value="Lao PDR"/>
+</config>
+</config>
+<config key="cluster_0">
+<entry key="cluster_0" type="xstring" value="cluster_0"/>
+<config key="CFG_MAPPED_KEYS">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Moldova"/>
+<entry key="1" type="xstring" value="Malaysia"/>
+<entry key="2" type="xstring" value="Tunisia"/>
+<entry key="3" type="xstring" value="Azerbaijan"/>
+<entry key="4" type="xstring" value="Vietnam"/>
+</config>
+</config>
+</config>
+</config>
