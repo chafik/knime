@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.27)  11 MAR 2011 10:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.27)  11 MAR 2011 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,6 +282,12 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
 (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -303,16 +309,47 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
+(/usr/share/texmf-texlive/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen108
+\captionmargin@=\dimen109
+\captionwidth=\dimen110
+\caption@indent=\dimen111
+\caption@parindent=\dimen112
+\caption@hangindent=\dimen113
+)
+\c@ContinuedFloat=\count91
+)
+\c@KVtest=\count92
+\sf@farskip=\skip43
+\sf@captopadj=\dimen114
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count93
+\c@subfigure@save=\count94
+\c@lofdepth=\count95
+\c@subtable=\count96
+\c@subtable@save=\count97
+\c@lotdepth=\count98
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip43
-\f@ncyO@elh=\skip44
-\f@ncyO@erh=\skip45
-\f@ncyO@olh=\skip46
-\f@ncyO@orh=\skip47
-\f@ncyO@elf=\skip48
-\f@ncyO@erf=\skip49
-\f@ncyO@olf=\skip50
-\f@ncyO@orf=\skip51
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
 )
 (/usr/share/texmf-texlive/tex/latex/lastpage/lastpage.sty
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
@@ -320,10 +357,10 @@ Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
 )
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count91
-\float@exts=\toks17
+\c@float@type=\count99
+\float@exts=\toks19
 \float@box=\box26
-\@float@everytoks=\toks18
+\@float@everytoks=\toks20
 \@floatcapt=\box27
 )
 (/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
@@ -491,9 +528,9 @@ O)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
-\@linkdim=\dimen108
-\Hy@linkcounter=\count92
-\Hy@pagecounter=\count93
+\@linkdim=\dimen115
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -560,10 +597,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count94
-\Field@Width=\dimen109
-\Fld@charsize=\dimen110
-\Field@toks=\toks19
+\Fld@menulength=\count102
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+\Field@toks=\toks21
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -575,25 +612,25 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count95
-\c@Item=\count96
-\c@Hfootnote=\count97
+\Hy@abspage=\count103
+\c@Item=\count104
+\c@Hfootnote=\count105
 )
 *hyperref using default driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count98
+\Fld@listcount=\count106
 )
 (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
-\Gm@cnth=\count99
-\Gm@cntv=\count100
-\c@Gm@tempcnt=\count101
-\Gm@bindingoffset=\dimen111
-\Gm@wd@mp=\dimen112
-\Gm@odd@mp=\dimen113
-\Gm@even@mp=\dimen114
-\Gm@dimlist=\toks20
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@dimlist=\toks22
 )
 (/usr/share/texmf-texlive/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
@@ -605,15 +642,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks21
-\verbatim@line=\toks22
-\verbatim@in@stream=\read1
-)
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
@@ -622,49 +653,49 @@ Package: amstext 2000/06/29 v2.01
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
-\ex@=\dimen115
+\ex@=\dimen122
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen116
+\pmbraise@=\dimen123
 )
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count102
+\inf@bad=\count110
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count103
-\leftroot@=\count104
+\uproot@=\count111
+\leftroot@=\count112
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count105
-\DOTSCASE@=\count106
+\classnum@=\count113
+\DOTSCASE@=\count114
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
-\big@size=\dimen117
+\big@size=\dimen124
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count107
-\c@MaxMatrixCols=\count108
+\macc@depth=\count115
+\c@MaxMatrixCols=\count116
 \dotsspace@=\muskip11
-\c@parentequation=\count109
-\dspbrk@lvl=\count110
+\c@parentequation=\count117
+\dspbrk@lvl=\count118
 \tag@help=\toks24
-\row@=\count111
-\column@=\count112
-\maxfields@=\count113
+\row@=\count119
+\column@=\count120
+\maxfields@=\count121
 \andhelp@=\toks25
-\eqnshift@=\dimen118
-\alignsep@=\dimen119
-\tagshift@=\dimen120
-\tagwidth@=\dimen121
-\totwidth@=\dimen122
-\lineht@=\dimen123
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
 \@envbody=\toks26
-\multlinegap=\skip53
-\multlinetaggap=\skip54
+\multlinegap=\skip58
+\multlinetaggap=\skip59
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
@@ -682,16 +713,16 @@ Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
 
 (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen124
-\extrarowheight=\dimen125
+\col@sep=\dimen131
+\extrarowheight=\dimen132
 \NC@list=\toks28
-\extratabsurround=\skip55
-\backup@length=\skip56
+\extratabsurround=\skip60
+\backup@length=\skip61
 )
 \everycr=\toks29
-\minrowclearance=\skip57
+\minrowclearance=\skip62
 )
-\rownum=\count114
+\rownum=\count122
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -703,23 +734,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count115
+\lst@mode=\count123
 \lst@gtempboxa=\box30
 \lst@token=\toks30
-\lst@length=\count116
-\lst@currlwidth=\dimen126
-\lst@column=\count117
-\lst@pos=\count118
-\lst@lostspace=\dimen127
-\lst@width=\dimen128
-\lst@newlines=\count119
-\lst@lineno=\count120
-\lst@maxwidth=\dimen129
+\lst@length=\count124
+\lst@currlwidth=\dimen133
+\lst@column=\count125
+\lst@pos=\count126
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count127
+\lst@lineno=\count128
+\lst@maxwidth=\dimen136
 
 (/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count121
-\lst@skipnumbers=\count122
+\c@lstnumber=\count129
+\lst@skipnumbers=\count130
 \lst@framebox=\box31
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
@@ -756,17 +787,24 @@ LaTeX Info: Redefining \up on input line 22.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen130
+\scratchcounter=\count131
+\scratchdimen=\dimen137
 \scratchbox=\box32
-\nofMPsegments=\count124
-\nofMParguments=\count125
+\nofMPsegments=\count132
+\nofMParguments=\count133
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen131
-\MPnumerator=\count127
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen138
+\MPnumerator=\count135
 \everyMPtoPDFconversion=\toks32
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 22.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 22.
  (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -774,7 +812,7 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count136
 )
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
@@ -826,7 +864,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-\c@lstlisting=\count129
+\c@lstlisting=\count137
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 23.
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -848,80 +886,165 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 23--23
 
 
 (./satellite.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.10 ...issing1.csv, countries2007_noMissing2.csv}
-                                                  . Ces trois fichiers conti...
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<insa-couleur.jpg, id=97, 425.4294pt x 227.6505pt>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg>
 
-? X
- 
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 26.91588pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2
+
+ <./insa-couleur.jpg>]
+<correlation_social.png, id=112, 556.0775pt x 453.695pt>
+File: correlation_social.png Graphic file (type png)
+
+<use correlation_social.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [3 <./correlation_social.png (PNG copy)>]
+Overfull \hbox (15.68486pt too wide) in paragraph at lines 51--53
+[]\T1/cmr/m/n/10.95 Cet at-tribut est étroite-ment lié aux im-pacts de la lib-e
+rté sur les as-pects économiques
+ []
+
+<../pics/correlation_sante.png, id=121, 556.0775pt x 453.695pt>
+File: ../pics/correlation_sante.png Graphic file (type png)
+
+<use ../pics/correlation_sante.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [4 <../pics/correlation_sante.png (PNG copy)>]
+<../pics/correlation_armee.png, id=128, 556.0775pt x 453.695pt>
+File: ../pics/correlation_armee.png Graphic file (type png)
+
+<use ../pics/correlation_armee.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [5 <../pics/correlation_armee.png (PNG copy)>]
+<../pics/correlation_demographie.png, id=135, 556.0775pt x 453.695pt>
+File: ../pics/correlation_demographie.png Graphic file (type png)
+
+<use ../pics/correlation_demographie.png>
+Overfull \hbox (21.88484pt too wide) in paragraph at lines 100--101
+[]\T1/cmr/m/n/10.95 Comme dans le do-maine de la santé, les at-tributs sont cor
+-rélés dans des pro-por-tions déraisonnables.
+ []
+
+File: insa-couleur.jpg Graphic file (type jpg)
+<use insa-couleur.jpg> [6 <../pics/correlation_demographie.png (PNG copy)>]
+<../pics/correlation_economie.png, id=142, 1284.8pt x 957.5775pt>
+File: ../pics/correlation_economie.png Graphic file (type png)
+
+<use ../pics/correlation_economie.png>
+<../pics/correlation_economie_2.png, id=143, 556.0775pt x 453.695pt>
+File: ../pics/correlation_economie_2.png Graphic file (type png)
+
+<use ../pics/correlation_economie_2.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [7 <../pics/correlation_economie.png (PNG copy)>]
+<../pics/choix_attributs_PCA.png, id=151, 727.71875pt x 602.25pt>
+File: ../pics/choix_attributs_PCA.png Graphic file (type png)
+
+<use ../pics/choix_attributs_PCA.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [8 <../pics/correlation_economie_2.png (PNG copy)>]
+<../pics/outliers_PCA_avant_1D.png, id=158, 1284.8pt x 957.5775pt>
+File: ../pics/outliers_PCA_avant_1D.png Graphic file (type png)
+
+<use ../pics/outliers_PCA_avant_1D.png>
+<../pics/outliers_PCA_hilite_1D.png, id=159, 1284.8pt x 957.5775pt>
+File: ../pics/outliers_PCA_hilite_1D.png Graphic file (type png)
+
+<use ../pics/outliers_PCA_hilite_1D.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [9 <../pics/choix_attributs_PCA.png (PNG copy)>]
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [10 <../pics/outliers_PCA_avant_1D.png (PNG copy)>]
+<../pics/outliers_PCA_avant_2D.png, id=173, 1284.8pt x 957.5775pt>
+File: ../pics/outliers_PCA_avant_2D.png Graphic file (type png)
+
+<use ../pics/outliers_PCA_avant_2D.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [11 <../pics/outliers_PCA_hilite_1D.png (PNG copy)>]
+<../pics/distance_liberty_clusters.png, id=180, 1284.8pt x 957.5775pt>
+File: ../pics/distance_liberty_clusters.png Graphic file (type png)
+
+<use ../pics/distance_liberty_clusters.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [12 <../pics/outliers_PCA_avant_2D.png (PNG copy)>]
+<../pics/hierarchical_liberty_clusters.png, id=187, 1284.8pt x 957.5775pt>
+File: ../pics/hierarchical_liberty_clusters.png Graphic file (type png)
+
+<use ../pics/hierarchical_liberty_clusters.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [13 <../pics/distance_liberty_clusters.png (PNG copy)>]
+
+<../pics/distance_predicted_clusters.png, id=195, 1284.8pt x 957.5775pt>
+File: ../pics/distance_predicted_clusters.png Graphic file (type png)
+
+<use ../pics/distance_predicted_clusters.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [14 <../pics/hierarchical_liberty_clusters.png (PNG cop
+y)>]
+<../pics/entropy_hierarchical.png, id=202, 514.92375pt x 472.76625pt>
+File: ../pics/entropy_hierarchical.png Graphic file (type png)
+
+<use ../pics/entropy_hierarchical.png>
+<../pics/entropy_fuzzycmeans.png, id=203, 558.085pt x 742.775pt>
+File: ../pics/entropy_fuzzycmeans.png Graphic file (type png)
+
+<use ../pics/entropy_fuzzycmeans.png>
+<../pics/entropy_kmeans.png, id=204, 558.085pt x 742.775pt>
+File: ../pics/entropy_kmeans.png Graphic file (type png)
+
+<use ../pics/entropy_kmeans.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [15 <../pics/distance_predicted_clusters.png (PNG copy)
+> <../pics/entropy_hierarchical.png (PNG copy)> <../pics/entropy_fuzzycmeans.pn
+g (PNG copy)> <../pics/entropy_kmeans.png (PNG copy)>] <../pics/errors_j48.png,
+ id=215, 398.48875pt x 188.705pt>
+File: ../pics/errors_j48.png Graphic file (type png)
+
+<use ../pics/errors_j48.png>
+<../pics/errors_jrip.png, id=216, 384.43625pt x 189.70876pt>
+File: ../pics/errors_jrip.png Graphic file (type png)
+
+<use ../pics/errors_jrip.png>
+<../pics/errors_knn.png, id=217, 394.47375pt x 190.7125pt>
+File: ../pics/errors_knn.png Graphic file (type png)
+
+<use ../pics/errors_knn.png>) AED: lastpage setting LastPage
+File: insa-couleur.jpg Graphic file (type jpg)
+
+<use insa-couleur.jpg> [16 <../pics/errors_j48.png (PNG copy)> <../pics/errors_
+jrip.png (PNG copy)> <../pics/errors_knn.png (PNG copy)>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8841 strings out of 495061
- 121335 string characters out of 1182621
- 204026 words of memory out of 3000000
- 11833 multiletter control sequences out of 15000+50000
- 19260 words of font info for 42 fonts, out of 3000000 for 9000
+ 10047 strings out of 495061
+ 144227 string characters out of 1182621
+ 239382 words of memory out of 3000000
+ 12959 multiletter control sequences out of 15000+50000
+ 21711 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,13n,43p,430b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.3} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.2.1.6} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.2.1.5} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.2.1.4} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.2.1.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.2.1.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.2.1.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
-replaced by a fixed one
-
- </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk>{/usr/shar
-e/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr
-8a.pfb>
-Output written on main.pdf (1 page, 33317 bytes).
+ 46i,16n,45p,805b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home
+/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/chafik/.t
+exmf-var/fonts/pk/ljfour/jknappen/ec/eccc1095.600pk> </home/chafik/.texmf-var/f
+onts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/chafik/.texmf-var/fonts/pk/lj
+four/jknappen/ec/ecrm0900.600pk> </home/chafik/.texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm0800.600pk> </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ect
+t1095.600pk> </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600p
+k> </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/
+chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/chafik/.te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk>{/usr/share/texmf-texlive/fo
+nts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/urw/helvetic/uh
+vr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (16 pages, 654749 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
