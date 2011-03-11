@@ -7,20 +7,17 @@
 \subsection{Contexte}
 Cette étude s'inscrit dans le cadre du projet Fouille de données. L'objectif étant de mettre en oeuvre notre capacité à adopter une démarche efficace et interessante pour analyser un jeu de données concernant un certain nombre de pays.
 Ce jeu de données contient entre autre des données économiques, sociales et démographiques. On peut choisir d'explorer ces données à la recherche de modèles liant des attributs ou segmenter les pays sous forme de groupes répondant à certains critères. On peut également partir d'une hypothèse ou conjecture que l'on essaye de vérifier.  
+Nous avons, pour cela, à notre disposition trois jeux de données sous forme de fichiers CVS \footnote{countries2007_all.csv, countries2007_noMissing1.csv, countries2007_noMissing2.csv}. Ces trois fichiers contiennent de nombreuses informations sur un certain nombre de pays. Nous avons restreint notre étude au fichier \og countries2007_noMissing2.cvs \fg qui contient 88 entrées.
 
--Blabla : objectifs du projets ...
--Rappel des données et des outils
+En ce qui concerne les outils utilisés, un logiciel de fouille de données présenté en séance nous permet d'effectuer differentes explorations. Il s'agit de Knime \footnote{http://www.knime.org/}. 
+
 \subsection{Problématique}
 
 Les mouvements révolutionaires de libération que connait le monde arabe nous ont poussé à étudier de plus près l'impact des libertés civiles sur les situations sociale, économique et militaire de certains pays.
 Après l'introduction d'un nouvel attribut au jeu de donnés que nous possédons, nous nous poserons la question de savoir s'il y a un lien entre ce nouvel indicateur (indice de liberté) et les données démographique, militaire, économique, sociale...etc d'un pays.
-On s'intéressera pas la suite à la génération de cet indice de liberté à partir d'un ensemble de données définis durant l'étude précédente. En d'autres termes, on essayera de corroborer les differents résultats de la première partie en retrouvant l'indice de liberté de certains états et le comparer aux données de notre source d'informations initiale.
+On s'intéressera pas la suite à la génération de cet indice de liberté à partir d'un ensemble de données définis durant l'étude précédente. En d'autres termes, on essayera de corroborer les differents résultats de la première partie, le cas échéant, en retrouvant l'indice de liberté de certains états et le comparer aux données de notre source d'informations initiale.
 
 
--Blabla sur l'actualité
--En fonction des résultats ou bien 
-- "Lien entre liberté civile et données démographique, santé, armée, économie, sociale..."?
-- Ensuite chercher à trouver (générer) les indices de liberté à partir des résultats (liens, modèles) établis
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,7 +26,6 @@ On s'intéressera pas la suite à la génération de cet indice de liberté à p
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Identification des attributs pertinents}
-Blabla plus interessant
 Cette partie tentera de justifier les choix d'attributs pour leur rapport \emph{possible} avec la liberté civile des peuples.
 \subsubsection{Social}
 \begin{description}
@@ -136,7 +132,7 @@ Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acce
 \subsection{Introduction d'un nouvel attribut}
 
 {\huge TODO}
-
+Notre démarche étant d'étudier le jeu de données fourni associé à l'introduction d'un nouvel attribut qui est l'indice de liberté, nous avons choisi comme source d'un tel indicateur le site internet \og http://perspective.usherbrooke.ca/ \fg qui fourni par pays et par année un indice compris entre 0 et 7 (7 représentant une liberté civile quasi inexistante)
 -Blabla site internet, organisation
 -Pb : absence données sous forme de fichiers exploitable directement (cvs) d'ou le script (merci yoyo)
 
