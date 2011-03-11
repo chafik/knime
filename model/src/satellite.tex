@@ -26,10 +26,10 @@ Cette partie tentera de justifier les choix d'attributs pour leur rapport \emph{
 \item [Adolescent fertility rate] 
 Il est possible de supposer --- à la limite --- qu'un état totalitaire aura des particularités du point de vue de la fécondité des adolescents. En effet, on peut imaginer que le taux d'accès aux études supérieures plus bas influence 
 \item [Worker's remittances and compensation of employees]
-{\huge Je ne sais pas ce que c'est}
+Reflet direct du niveau de vie des habitants, cet attribut serait dépendant de l'indice de liberté et s'illustrerait par des salaires et des primes très bas au sein d'une dictature militaire.
 \item [Internet users]
 Les aspects de censure liés aux dictatures se traduiraient par un usage très limité d'internet. Aussi le nombre d'internautes 
-au sein d'une dictature se réduisant aux membres du régime, on s'attend à trouver une relation proportionnelle entre l'indice de liberté et le nombre d'internautes. 
+au sein d'une dictature se réduisant aux membres du régime, on s'attend à trouver une relation proportionnelle entre l'indice de liberté et le nombre d'internautes.
 \item [Mobile cellular suscriptions]
 Le fort contrôle des moyens de communication de la part d'un régime totalitaire pourrait induire une utilisation de la télphonie mobile très limitée.
 \end{description}
@@ -76,17 +76,17 @@ Sans surprise, le taux de fécondité des adolescentes est fortement lié à cel
 \subsubsection{Démographie} 
 \begin{description}
 \item [Fertility rate]
-Cf. plus haut
+Cf. plus haut.
 \item [Adolescent fertility]
-Cf. plus haut
+Cf. plus haut.
 \item [Population totale]
 On part de la même hypothèse que celle de la surface. Plus la population est importante plus l'indice de liberté est important.
 \item Population growth
 Tout comme le taux de mortalité, la croissance serait inversement proportionnelle à l'indice de liberté d'un pays.
 \item [Life expectancy]
-Cf. plus haut
+Cf. plus haut.
 \item [Surface]
-Cf. plus haut
+Cf. plus haut.
 \end{description}
 
 \graph{correlation_demographie}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Démographie}}
@@ -111,7 +111,7 @@ On suppose que l'inflation est fortement lié à l'indice de liberté si bien qu
 \item [Time required to start a business (days)]
 Un indice de liberté bas représente un obstacle aux jeunes entrepreneurs. Aussi, on s'attend à trouver des temps relativement hauts afin de démarrer une nouvelle entreprise. 
 \item [Workers remittances and compensation of employees]
-Reflet direct du niveau de vie des habitants, cet attribut serait dépendant de l'indice de liberté et s'illustrerait par des salaires et des primes très bas au sein d'une dictature militaire.
+Cf. plus haut.
 \end{description}
 
 \graph{correlation_economie}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Economie}}
@@ -137,9 +137,9 @@ La tentative d'éliminer plus d'outliers via une analyse en deux dimensions éch
 
 \subsection{Discrétisation de la dimension \og liberté \fg}
 On tente ici de mettre en place un attribut de \og classe \fg, un libellé déterminé par l'indice de liberté. Dans un premier temps, il faut déterminer le nombre de classes à créer. Le noeud \og Hierarchical clustering \fg nous y aide : un optimum de 5 clusters se lit directement sur le graphe suivant.
-\graph{distance_liberty_clusters}{Distance entre clusters en fonction du nombre de clusters demandé (clusters hiérarchiques)}
+\graph{distance_liberty_clusters}{Distance entre clusters en fonction du nombre de clusters demandé (clusters hiérarchiques sur l'indice de liberté)}
 Cette propriété est flagrante sur le dendrogramme.
-\graph{hierarchical_liberty_clusters}{Dendrogramme du clustering hiérarchique}
+\graph{hierarchical_liberty_clusters}{Dendrogramme du clustering hiérarchique sur l'indice de liberté}
 
 On utilise le même noeud pour nous fournir ces classes. Ceci fait, nous pouvons commencer l'étude proprement dite.
 
@@ -148,25 +148,39 @@ On utilise le même noeud pour nous fournir ces classes. Ceci fait, nous pouvons
 \section{Classification non supervisée}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-On tente ensuite de réaliser trois types de clusterings différents sur les attributs choisis. Ceci en espérant que ces clusters correspondront aux classes de liberté, ce qui est mesuré grâce au noeud \og Entropy Scorer \fg.
+On tente de réaliser trois types de clustering différents sur les attributs choisis. Ceci en espérant que ces clusters correspondront aux classes de liberté, ce qui est mesuré grâce au noeud \og Entropy Scorer \fg.
+
+Dans un premier temps, on inspecte une mesure de distances en fonction du nombre de clusters hiérarchiques :
+\graph{distance_predicted_clusters}{Distance entre clusters en fonction du nombre de clusters demandé (clustering hiérarchique sur les attributs choisis)}
+Ce diagramme nous inciterait à chosir 4 clusters plutôt que les 5 choisis plus haut pour l'indice de liberté. Cependant, il ne permet pas de se prononcer sur l'adéquation des données aux classes de liberté.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.3\textwidth]{entropy_hierarchical}
-	\includegraphics[width=0.3\textwidth]{entropy_fuzzycmeans}
-	\includegraphics[width=0.3\textwidth]{entropy_kmeans}
+	\subfloat[Hiérarchique]{\includegraphics[width=0.3\textwidth]{entropy_hierarchical}}
+	\subfloat[Fuzzy C-Means]{\includegraphics[width=0.3\textwidth]{entropy_fuzzycmeans}}
+	\subfloat[K-Means]{\includegraphics[width=0.3\textwidth]{entropy_kmeans}}
 	\caption{Mesure de l'entropie des différents clusterings avec les classes de références}
 \end{figure}
-C'est un échec. L'entropie est clairement énorme et nous montre que le jeu d'attributs choisi ne constitue pas une base intéressante pour déterminer l'indice de liberté : son clustering n'aboutit à rien de semblable aux classes de liberté. En procédant sur les jeux d'attributs \og acceptables à la limite \fg vus plus haut (\emph{Social}, \emph{Armée} et \emph{Economie}), on aboutit au même type de résultats.
+C'est un échec. L'entropie est clairement énorme et nous montre que le jeu d'attributs choisi ne constitue pas une base intéressante pour déterminer l'indice de liberté : son clustering n'aboutit à rien de semblable aux classes de liberté.
+
+En étudiant sur les jeux d'attributs \og acceptables à la limite \fg vus plus haut (\emph{Social}, \emph{Armée} et \emph{Economie}), on aboutit au même type de résultats.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Classification supervisée}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Le principe est cette fois de réaliser un arbre décisionnel qui synthétisera la relation entre classe de liberté et les autres attributs. Compte tenus des résultat obtenus en classification non supervisée, il est probable que cette tentative n'aboutisse pas.
 
+\begin{figure}[H]
+	\centering
+	\subfloat[J48]{\includegraphics[width=0.3\textwidth]{errors_j48}}
+	\subfloat[JRip]{\includegraphics[width=0.3\textwidth]{errors_jrip}}
+	\subfloat[KNN]{\includegraphics[width=0.3\textwidth]{errors_knn}}
+	\caption{Mesure du taux d'erreur des arbres décisionnels obtenus via 3 méthodes}
+\end{figure}
 
-
-
+Encore une fois, on constate de très mauvais résultats. Les tests aboutissent à de nombreuses erreurs (souvent plus de 50\%), ce qui, pour un ensemble de 5 clusters, est à peine meilleur qu'un choix aléatoire.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -175,4 +189,7 @@ C'est un échec. L'entropie est clairement énorme et nous montre que le jeu d'a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+{\huge TODO}
+
+D'un point de vue plus personnel, cette étude nous a appris combien le choix des attributs de départ est important, mais difficile et chronophage. Il nous a semblé que c'est là que réside tout le défi d'une fouille de donnée propre et fructueuse : nous y avons passé beaucoup de temps, mais paradoxalement c'est là que tous les problèmes de l'étude semblent résider.
 
