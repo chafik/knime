@@ -6,7 +6,7 @@
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
-<entry key="customName" type="xstring" value="Armée - POINT CONNEXION"/>
+<entry key="customName" type="xstring" value="Armée"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
 </config>

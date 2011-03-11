@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.27)  10 MAR 2011 22:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.27)  11 MAR 2011 09:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -27,23 +27,14 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 (/usr/share/texmf-texlive/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
-(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/share/texmf-texlive/tex/generic/babel/frenchb.ldf
+Language: frenchb 2009/03/16 v2.3d French support from the babel system
 
 (/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)
-(/usr/share/texmf-texlive/tex/generic/babel/frenchb.ldf
-Language: frenchb 2009/03/16 v2.3d French support from the babel system
-
 
 Package babel Warning: No hyphenation patterns were loaded for
 (babel)                the language `French'
@@ -283,6 +274,13 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -756,11 +754,6 @@ LaTeX Info: Redefining \degres on input line 22.
 LaTeX Info: Redefining \dots on input line 22.
 LaTeX Info: Redefining \up on input line 22.
 
-
-Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
-(frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 22.
-
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
@@ -867,27 +860,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [2
 
  <./insa-couleur.jpg>]
-Overfull \hbox (6.41585pt too wide) in paragraph at lines 27--28
-[]\OT1/cmr/m/n/20.74 Je ne sais pas ce que
+Overfull \hbox (6.59361pt too wide) in paragraph at lines 39--40
+[]\T1/cmr/m/n/20.74 Je ne sais pas ce que
  []
 
-<correlation_social.png, id=108, 556.0775pt x 453.695pt>
+<correlation_social.png, id=107, 556.0775pt x 453.695pt>
 File: correlation_social.png Graphic file (type png)
 
 <use correlation_social.png>
-Overfull \hbox (2.58517pt too wide) in paragraph at lines 36--38
-[]\OT1/cmr/m/n/10.95 Les at-tributs ayant trait aux nou-velles tech-nolo-gies d
-e l'in-for-ma-tion sont lin^^Seairement corr^^Sel^^Ses,
- []
-
-
-Overfull \hbox (18.5487pt too wide) in paragraph at lines 42--44
-[]\OT1/cmr/m/n/10.95 Cet at-tribut est ^^Setroitement li^^Se aux im-pacts de la
- lib-ert^^Se sur les as-pects ^^Seconomiques
- []
-
 File: insa-couleur.jpg Graphic file (type jpg)
-<use insa-couleur.jpg> [3 <./correlation_social.png (PNG copy)>]
+ <use insa-couleur.jpg> [3 <./correlation_social.png (PNG copy)>]
+Overfull \hbox (15.68486pt too wide) in paragraph at lines 54--56
+[]\T1/cmr/m/n/10.95 Cet at-tribut est étroite-ment lié aux im-pacts de la lib-e
+rté sur les as-pects économiques
+ []
+
 <../pics/correlation_sante.png, id=117, 556.0775pt x 453.695pt>
 File: ../pics/correlation_sante.png Graphic file (type png)
 
@@ -904,9 +891,9 @@ File: insa-couleur.jpg Graphic file (type jpg)
 File: ../pics/correlation_demographie.png Graphic file (type png)
 
 <use ../pics/correlation_demographie.png>
-Overfull \hbox (24.63849pt too wide) in paragraph at lines 91--92
-[]\OT1/cmr/m/n/10.95 Comme dans le do-maine de la sant^^Se, les at-tributs sont
- corr^^Sel^^Ses dans des pro-por-tions d^^Seraisonnables.
+Overfull \hbox (21.88484pt too wide) in paragraph at lines 103--104
+[]\T1/cmr/m/n/10.95 Comme dans le do-maine de la santé, les at-tributs sont cor
+-rélés dans des pro-por-tions déraisonnables.
  []
 
 File: insa-couleur.jpg Graphic file (type jpg)
@@ -921,61 +908,61 @@ File: ../pics/correlation_economie_2.png Graphic file (type png)
 <use ../pics/correlation_economie_2.png>
 File: insa-couleur.jpg Graphic file (type jpg)
  <use insa-couleur.jpg> [7 <../pics/correlation_economie.png (PNG copy)>]
-<../pics/outliers_PCA_avant_1D.png, id=147, 1284.8pt x 957.5775pt>
-File: ../pics/outliers_PCA_avant_1D.png Graphic file (type png)
 
-<use ../pics/outliers_PCA_avant_1D.png>
-<../pics/outliers_PCA_hilite_1D.png, id=148, 1284.8pt x 957.5775pt>
-File: ../pics/outliers_PCA_hilite_1D.png Graphic file (type png)
+! LaTeX Error: File `choix_attributs_PCA' not found.
 
-<use ../pics/outliers_PCA_hilite_1D.png>
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [8 <../pics/correlation_economie_2.png (PNG copy)>]
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [9 <../pics/outliers_PCA_avant_1D.png (PNG copy)>]
-<../pics/outliers_PCA_avant_2D.png, id=161, 1284.8pt x 957.5775pt>
-File: ../pics/outliers_PCA_avant_2D.png Graphic file (type png)
-
-<use ../pics/outliers_PCA_avant_2D.png>
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [10 <../pics/outliers_PCA_hilite_1D.png (PNG copy)>]
-<../pics/distance_liberty_clusters.png, id=168, 1284.8pt x 957.5775pt>
-File: ../pics/distance_liberty_clusters.png Graphic file (type png)
-
-<use ../pics/distance_liberty_clusters.png>
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [11 <../pics/outliers_PCA_avant_2D.png (PNG copy)>]
-<../pics/hierarchical_liberty_clusters.png, id=175, 1284.8pt x 957.5775pt>
-File: ../pics/hierarchical_liberty_clusters.png Graphic file (type png)
-
-<use ../pics/hierarchical_liberty_clusters.png>
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [12 <../pics/distance_liberty_clusters.png (PNG copy)>]
-)
-AED: lastpage setting LastPage
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [13 <../pics/hierarchical_liberty_clusters.png (PNG cop
-y)>] (./main.aux) ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...truction de l'ensemble d'attributs final}
+                                                  
+? X
+ 
 Here is how much of TeX's memory you used:
- 8779 strings out of 495061
- 122606 string characters out of 1182621
- 214399 words of memory out of 3000000
- 11733 multiletter control sequences out of 15000+50000
- 16399 words of font info for 45 fonts, out of 3000000 for 9000
+ 8914 strings out of 495061
+ 122863 string characters out of 1182621
+ 212026 words of memory out of 3000000
+ 11870 multiletter control sequences out of 15000+50000
+ 19868 words of font info for 43 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,16n,43p,481b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
-share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texli
-ve/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (13 pages, 552658 bytes).
+ 43i,15n,43p,805b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{page.13} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.1.6} has been referenced but does n
+ot exist, replaced by a fixed one
+
+ </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1095.600pk> </home/ch
+afik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/chafik/.texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600pk> </home/chafik/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/chafik/.texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1095.600pk> </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbx1440.600pk> </home/chafik/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm10
+95.600pk>{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texm
+f-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/t
+ype1/urw/times/utmr8a.pfb>
+Output written on main.pdf (7 pages, 341297 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
