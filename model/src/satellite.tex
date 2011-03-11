@@ -6,8 +6,8 @@
 
 \subsection{Contexte}
 Cette étude s'inscrit dans le cadre du projet Fouille de données. L'objectif est de mettre en oeuvre notre capacité à adopter une démarche efficace et interessante pour analyser un jeu de données concernant un certain nombre de pays.
-% \footnote{\verb!countries2007_all.csv!, \verb!countries2007_noMissing1.csv!, \verb!countries2007_noMissing2.csv!}
-Nous avons, pour cela, à notre disposition trois jeux de données sous forme de fichiers CSV. Ces trois fichiers contiennent de nombreuses informations sur un certain nombre de pays. Nous avons restreint notre étude au fichier \verb!countries2007_noMissing1.csv! qui contient 88 entrées.
+
+Nous avons, pour cela, à notre disposition trois jeux de données sous forme de fichiers CSV\footnote{\verb!countries2007\_all.csv!, \verb!countries2007\_noMissing1.csv!, \verb!countries2007\_noMissing2.csv!}. Ces trois fichiers contiennent de nombreuses informations sur un certain nombre de pays. Nous avons restreint notre étude au fichier \verb!countries2007_noMissing1.csv! qui ne contient que 88 entrées pour 32 attributs, mais présente l'avantage de proposer des valeurs pour chaque couple \og pays -- attribut \fg.
 
 En ce qui concerne les outils utilisés, un logiciel de fouille de données présenté en séance nous permet d'effectuer differentes explorations : il s'agit de \textsc{knime}\footnote{\url{http://www.knime.org/}}. 
 
@@ -53,10 +53,10 @@ Sans nous livrer à des conclusions trop hâtives, nous ne considérerons cepend
 Cet attribut est étroitement lié aux impacts de la liberté sur les aspects économiques d'un pays. Un pays totalitaire
 accorderait peu d'importance aux achats (imports ?) de vaccins contrairement aux investissements de l'armement militaire.
 \item [Life expectancy at birth, total]
-On pourrait croire que les libertés d'un pays influence l'esperance de vie de sa population. Cette hypothèse serait une conséquence
+On pourrait croire que les libertés d'un pays influencent l'esperance de vie de sa population. Cette hypothèse serait une conséquence
 des autres attributs qui lieraient liberté aux aspects économiques et sociaux d'un pays. En d'autres termes, moins un pays est libre plus sa situation sociale et sanitaire se dégrade, plus l'espérance de vie décroit.
 \item [Mortality rate, under-5]
-{\huge TODO}
+De même que pour l'espérance de vie, on peut supposer que le taux de mortalité des moins de 5 ans est une fonction croissante des libertés civiles d'un peuple.
 \item [Prevalence of HIV, total]
 Il est envisageable que le manque de liberté influence l'accès aux soins, par exemple en supposant qu'un pays sous pression politique soit peu développé.
 \end{description}
@@ -132,13 +132,12 @@ Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acce
 \graph{choix_attributs_PCA}{Méthode de construction de l'ensemble d'attributs final}
 
 \subsection{Introduction d'un nouvel attribut}
-
-
-Notre démarche étant d'étudier le jeu de données fourni associé à l'introduction d'un nouvel attribut qui est l'indice de liberté, nous avons choisi comme source d'un tel indicateur le site internet \url{http://perspective.usherbrooke.ca/} qui fourni par pays et par année un indice compris entre 1 et 7 (7 représentant une liberté civile quasi inexistante).
+134.214.104.77
+Notre démarche consiste en l'étude du jeu de données fourni et l'introduction d'un nouvel attribut : un indice de liberté civile. Nous avons choisi comme source d'un tel indicateur le site internet d'une université\footnote{\url{http://perspective.usherbrooke.ca/}} qui fournit par pays et par année un indice compris entre 1 et 7 (7 représentant une liberté civile quasi inexistante).
 
 L'organisation ayant recueilli ces information est FreedomHouse et le site les mettant à notre disposition est celui de l'université de Sherbrooke.
 
-Le site internet cité précédemment ne nous fournit pas les données directement exploitables sous Knime. Les informations sont disponibles sous forme de tableaux représentés sur des pages web. Aussi, nous avons réalisé un script en bash qui permet d'extraire du site l'indice de liberté civile des pays présents dans notre jeu de données et de l'integrer à ce dernier. Il suffira ensuite de corriger les entrées erronées et inexistantes.
+Le site internet cité précédemment ne nous fournit pas les données directement exploitables sous Knime. Les informations sont disponibles sous forme de tableaux représentés sur des pages web. Aussi, nous avons réalisé un script en bash qui permet d'extraire automatiquement du site l'indice de liberté civile des pays présents dans notre jeu de données et de l'integrer à ce dernier. Il suffira ensuite de corriger les entrées erronées et inexistantes.
 
 \addCode{../../countries2007/get_liberty_indice.sh}{bash}
 
@@ -164,7 +163,11 @@ On utilise le même noeud pour nous fournir ces classes. Ceci fait, nous pouvons
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 On tente de réaliser trois types de clustering différents sur les attributs choisis. Ceci en espérant que ces clusters correspondront aux classes de liberté, ce qui est mesuré grâce au noeud \og Entropy Scorer \fg.
 
-\graph{classification_non_supervisee}{Structure des noeuds réalisant la classification non supervisée dans \textsc{knime}}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{classification_non_supervisee}
+	\caption{Structure des noeuds réalisant la classification non supervisée dans \textsc{knime}}
+\end{figure}
 
 Dans un premier temps, on inspecte une mesure de distances en fonction du nombre de clusters hiérarchiques :
 \graph{distance_predicted_clusters}{Distance entre clusters en fonction du nombre de clusters demandé (clustering hiérarchique sur les attributs choisis)}
@@ -188,7 +191,12 @@ En étudiant sur les jeux d'attributs \og acceptables à la limite \fg vus plus 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Le principe est cette fois de réaliser un arbre décisionnel qui synthétisera la relation entre classe de liberté et les autres attributs. Compte tenus des résultat obtenus en classification non supervisée, il est probable que cette tentative n'aboutisse pas.
 
-\graph{classification_non_supervisee}{Structure des noeuds réalisant la classification supervisée dans \textsc{knime}}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{classification_supervisee}
+	\caption{Structure des noeuds réalisant la classification supervisée dans \textsc{knime}}
+\end{figure}
+
 
 On obtient les statistiques d'erreurs suivantes.
 \begin{figure}[H]
@@ -207,12 +215,12 @@ Encore une fois, on constate de très mauvais résultats. Les tests aboutissent 
 \section{Conclusion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Nos travaux auront donc permis de déterminer une chose : les liens entre liberté d'un peuple et conditions sociale, démographique, économique, etc. sont ténus sur l'ensemble des pays étudiés. On peut donc envisager deux conclusions :
+Nos travaux auront donc permis de déterminer une chose : les liens entre liberté civile d'un peuple et conditions sociale, démographique, économique, etc. sont ténus sur l'ensemble des pays étudiés. On peut donc envisager deux conclusions :
 \begin{enumerate}
 	\item Soit la liberté de ces peuples n'influence aucunement ces conditions,
-	\item soit elle l'influence de plusieurs manières différentes, voire contradictoire, dans plusieurs sous-ensembles de ces pays.
+	\item soit elle l'influence de plusieurs manières différentes, voire contradictoires, dans plusieurs sous-ensembles de ces pays.
 \end{enumerate}
-N'ayant pu déterminer des groupes cohérents ni des données concluantes vérifiant la deuxième hypothèse, nous ne pouvons nous avancer plus avant.
+N'ayant pu déterminer des groupes cohérents ni des données concluantes vérifiant la deuxième hypothèse, nous ne pouvons plus nous avancer.
 
-D'un point de vue plus personnel, cette étude nous a appris combien le choix des attributs de départ est important, mais difficile et chronophage. Il nous a semblé que c'est là que réside tout le défi d'une fouille de donnée propre et fructueuse : nous y avons passé beaucoup de temps, mais paradoxalement c'est là que tous les problèmes de l'étude semblent résider.
+D'un point de vue plus personnel, cette étude nous a appris combien le choix des attributs de départ est important, mais difficile et chronophage. Il nous a semblé que c'est là que réside tout le défi d'une fouille de données propre et fructueuse : nous y avons passé beaucoup de temps, mais paradoxalement c'est là que tous les problèmes de l'étude semblent prendre racine.
 
