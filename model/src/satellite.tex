@@ -5,20 +5,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Contexte}
-Cette étude s'inscrit dans le cadre du projet Fouille de données. L'objectif étant de mettre en oeuvre notre capacité à adopter une démarche efficace et interessante pour analyser un jeu de données concernant un certain nombre de pays.
-Ce jeu de données contient entre autres des données économiques, sociales et démographiques. 
-
-On peut choisir d'explorer ces données à la recherche de modèles liant des attributs ou segmenter les pays sous forme de groupes répondant à certains critères. On peut également partir d'une hypothèse ou conjecture que l'on essaye de vérifier.  
+Cette étude s'inscrit dans le cadre du projet Fouille de données. L'objectif est de mettre en oeuvre notre capacité à adopter une démarche efficace et interessante pour analyser un jeu de données concernant un certain nombre de pays.
 % \footnote{\verb!countries2007_all.csv!, \verb!countries2007_noMissing1.csv!, \verb!countries2007_noMissing2.csv!}
-Nous avons, pour cela, à notre disposition trois jeux de données sous forme de fichiers CSV \huge{Mettre les footnote}. Ces trois fichiers contiennent de nombreuses informations sur un certain nombre de pays. Nous avons néanmoins restreint notre étude au fichier \verb!countries2007_noMissing1.csv! qui contient 88 entrées.
+Nous avons, pour cela, à notre disposition trois jeux de données sous forme de fichiers CSV. Ces trois fichiers contiennent de nombreuses informations sur un certain nombre de pays. Nous avons restreint notre étude au fichier \verb!countries2007_noMissing1.csv! qui contient 88 entrées.
 
-En ce qui concerne les outils utilisés, un logiciel de fouille de données présenté en séance nous permet d'effectuer differentes explorations. Il s'agit de Knime \footnote{\url{http://www.knime.org/}}. 
+En ce qui concerne les outils utilisés, un logiciel de fouille de données présenté en séance nous permet d'effectuer differentes explorations : il s'agit de \textsc{knime}\footnote{\url{http://www.knime.org/}}. 
 
 \subsection{Problématique}
 
-Les mouvements révolutionaires de libération que connait le monde arabe nous ont poussé à étudier de plus près l'impact des libertés civiles sur les situations sociale, économique et militaire de certains pays.
-Après l'introduction d'un nouvel attribut au jeu de donnés que nous possédons, nous nous poserons la question de savoir s'il y a un lien entre ce nouvel indicateur (indice de liberté) et les données démographique, militaire, économique, sociale...etc d'un pays.
-On s'intéressera pas la suite à la génération de cet indice de liberté à partir d'un ensemble de données définis durant l'étude précédente. En d'autres termes, on essayera de corroborer les differents résultats de la première partie, le cas échéant, en retrouvant l'indice de liberté de certains états et en le comparant aux données de notre source d'informations initiale.
+Les mouvements révolutionaires de libération que connait le monde arabe nous ont poussé à étudier de plus près l'impact des libertés civiles sur les situations sociale, économique et militaire de certains pays, ou du moins la corrélation entre ces deux groupes de caractéristiques.
+Après l'introduction d'un nouvel attribut au jeu de donnés que nous possédons, nous nous poserons la question de savoir s'il y a un lien entre ce nouvel indicateur (indice de liberté) et les données démographique, militaire, économique, sociale, ou autres, d'un pays.
+On s'intéressera par la suite à retrouver cet indice de liberté à partir d'un ensemble de données définis durant l'étude précédente. En d'autres termes, nous essaierons de corroborer les différents résultats de la première partie, s'il y a lieu, en retrouvant l'indice de liberté de certains états et en le comparant aux données de notre source d'informations initiale.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -27,11 +25,7 @@ On s'intéressera pas la suite à la génération de cet indice de liberté à p
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Identification des attributs pertinents}
-
 Cette partie tentera de justifier les choix d'attributs pour leur rapport \emph{possible} avec la liberté civile des peuples.
-Dans un premier temps, nous commencerons par constituer des groupes d'attributs sous forme de catégories (social, santé, armée, démographie, économie) en justifiant ce choix d'attributs à l'aide de leurs eventuels liens avec la liberté civile des peuples.
-Après quoi, nous passerons à l'étude des corrélations des differents attributs d'un même groupe pour finalement aboutir au choix définitif.
-
 \subsubsection{Social}
 \begin{description}
 \item [Adolescent fertility rate] 
@@ -51,17 +45,16 @@ Sans nous livrer à des conclusions trop hâtives, nous ne considérerons cepend
 
 \subsubsection{Santé}
 \begin{description}
-\item [Immunization]
+\item [Immunization, measles]
 Cet attribut est étroitement lié aux impacts de la liberté sur les aspects économiques d'un pays. Un pays totalitaire
 accorderait peu d'importance aux achats (imports ?) de vaccins contrairement aux investissements de l'armement militaire.
-\item [Life expectancy]
+\item [Life expectancy at birth, total]
 On pourrait croire que les libertés d'un pays influence l'esperance de vie de sa population. Cette hypothèse serait une conséquence
-des autres attributs qui lieraient indice de liberté aux aspects économiques et sociales d'un pays. En d'autres termes, moins un pays est libre plus sa situation sociale et sanitaire se dégrade, plus l'espérance de vie décroit.
-\item [Mortality rate]
-Un pays dépourvu de liberté pourrait avoir un taux de mortalité important dans la mesure où les mouvements des opposants sont réprimés par des peines de mort.
-Les engagements militaires d'un tel pays entraineraient des pertes humaines considérables et donc un taux de mortalité élevé.
-\item [HIV]
-Un indice de liberté très bas augementerait le nombre de personnes atteintes de maladies. En particulier le SIDA.
+des autres attributs qui lieraient liberté aux aspects économiques et sociaux d'un pays. En d'autres termes, moins un pays est libre plus sa situation sociale et sanitaire se dégrade, plus l'espérance de vie décroit.
+\item [Mortality rate, under-5]
+{\huge TODO}
+\item [Prevalence of HIV, total]
+Il est envisageable que le manque de liberté influence l'accès aux soins, par exemple en supposant qu'un pays sous pression politique soit peu développé.
 \end{description}
 
 \graph{correlation_sante}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Santé}}
@@ -72,13 +65,13 @@ Comme tous les attributs sont corrélés entre eux (on peut trouver au maximum d
 \item [Adolescent fertility rate]
 Cf plus haut.
 \item [Military expenditure]
-On prévoit de trouver un lien très fort entre les dépenses militaires et l'indice de liberté d'un pays. Un pays totalitaire a de très importants dépenses militaires et inversement.
+On prévoit de trouver un lien très fort entre les dépenses militaires et les libertés civiles d'un pays. Un pays totalitaire pourrait avoir de très importantes dépenses militaires et inversement.
 \item [Fertility rate, total]
-On s'attend à trouver un lien entre le taux de fécondité et l'indice de liberté. Un indice de liberté bas se traduirait peut être par un taux de fécondité bas également et inversement.
-\item [Life expectancy]
+On s'attend à trouver un lien entre le taux de fécondité et la liberté. Un indice de liberté bas se traduirait peut-être par un taux de fécondité bas également et inversement.
+\item [Life expectancy at birth, total]
 Cf plus haut.
-\item [Surface]
-Un grand pays en terme de surface pourrait être difficilement controlable par une dictature militaire. Il posséderait donc un indice de liberté plus important qu'un pays plus petit en surface.
+\item [Surface area]
+Un grand pays en termes de surface pourrait être difficilement contrôlable par une dictature militaire. Il posséderait donc selon toute probabilité une liberté civile plus importante qu'un pays plus petit en surface.
 \end{description}
 
 \graph{correlation_armee}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Armée}}
@@ -90,13 +83,13 @@ Sans surprise, le taux de fécondité des adolescentes est fortement lié à cel
 Cf. plus haut.
 \item [Adolescent fertility]
 Cf. plus haut.
-\item [Population totale]
-On part de la même hypothèse que celle de la surface. Plus la population est importante plus l'indice de liberté est important.
-\item Population growth
+\item [Population, total]
+On part de la même hypothèse que celle concernant la surface : plus la population est importante plus elle peut être incontrôlable, donc libre (en excluant des pays singuliers tels que la Chine).
+\item [Population growth]
 Tout comme le taux de mortalité, la croissance serait inversement proportionnelle à l'indice de liberté d'un pays.
-\item [Life expectancy]
+\item [Life expectancy at birth, total]
 Cf. plus haut.
-\item [Surface]
+\item [Surface area]
 Cf. plus haut.
 \end{description}
 
@@ -105,13 +98,13 @@ Comme dans le domaine de la santé, les attributs sont corrélés dans des propo
 
 \subsubsection{Economie}
 \begin{description}
-\item [Agriculture]
+\item [Agriculture, value added]
 Parmi les impacts économiques d'une absence de liberté, on pourrait trouver une très forte participation de l'agriculture dans l'économie d'une dictature militaire.
-\item [Export]
+\item [Exports of goods and services]
 On s'attend à trouver une relation inversemment proportionnelle entre la capacité d'une dictature à exporter des services et des biens et l'indice de liberté de celle-ci.
-\item [Foreign direct investment]
+\item [Foreign direct investment, net inflows]
 Idem que pour les exportations. 
-\item [GNI per capita, PPP ]
+\item [GNI per capita, PPP]
 Le revenu national brut pourrait dépendre de l'indice de liberté. Un indice de liberté bas pourrait induire une baisse du revenu national brut.
 \item [Imports of goods and services] 
 Une dictature militaire, exporterait peu mais importerait de manière importante. notamment les matières première et les produits élémentaires.
@@ -119,7 +112,7 @@ Une dictature militaire, exporterait peu mais importerait de manière importante
 Au vu des précédentes hypothèses, on pourrait s'attendre à une faible valeur ajoutée industrielle pour une dictature militaire. 
 \item [Inflation, GDP deflator] 
 On suppose que l'inflation est fortement lié à l'indice de liberté si bien qu'une dictature militaire connaitrait une inflation très importante.
-\item [Time required to start a business (days)]
+\item [Time required to start a business]
 Un indice de liberté bas représente un obstacle aux jeunes entrepreneurs. Aussi, on s'attend à trouver des temps relativement hauts afin de démarrer une nouvelle entreprise. 
 \item [Workers remittances and compensation of employees]
 Cf. plus haut.
@@ -136,14 +129,10 @@ Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acce
 
 \subsection{Introduction d'un nouvel attribut}
 
-
-Notre démarche étant d'étudier le jeu de données fourni associé à l'introduction d'un nouvel attribut qui est l'indice de liberté, nous avons choisi comme source d'un tel indicateur le site internet \url{http://perspective.usherbrooke.ca/} qui fourni par pays et par année un indice compris entre 1 et 7 (7 représentant une liberté civile quasi inexistante).
-
-L'organisation ayant recueilli ces information est FreedomHouse et le site les mettant à notre disposition est celui de l'université de Sherbrooke.
-
-Le site internet cité précédemment ne nous fournit pas les données directement exploitables sous Knime. Les informations sont disponibles sous forme de tableaux représentés sur des pages web. Aussi, nous avons réalisé un script en bash qui permet d'extraire du site l'indice de liberté civile des pays présents dans notre jeu de données et de l'integrer à ce dernier. Il suffira ensuite de corriger les entrées erronées et inexistantes.
-
-\addCode{../../countries2007/get_liberty_indice.sh}{bash}
+{\huge TODO}
+Notre démarche étant d'étudier le jeu de données fourni associé à l'introduction d'un nouvel attribut qui est l'indice de liberté, nous avons choisi comme source d'un tel indicateur le site internet \og http://perspective.usherbrooke.ca/ \fg qui fourni par pays et par année un indice compris entre 0 et 7 (7 représentant une liberté civile quasi inexistante)
+-Blabla site internet, organisation
+-Pb : absence données sous forme de fichiers exploitable directement (cvs) d'ou le script (merci yoyo)
 
 \subsection{Elimination des outliers}
 En procédant tout d'abord à une analyse sur chaque dimension, on élimine tout d'abord les premiers et derniers déciles dans chacune d'elles.
@@ -167,6 +156,8 @@ On utilise le même noeud pour nous fournir ces classes. Ceci fait, nous pouvons
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 On tente de réaliser trois types de clustering différents sur les attributs choisis. Ceci en espérant que ces clusters correspondront aux classes de liberté, ce qui est mesuré grâce au noeud \og Entropy Scorer \fg.
 
+\graph{classification_non_supervisee}{Structure des noeuds réalisant la classification non supervisée dans \textsc{knime}}
+
 Dans un premier temps, on inspecte une mesure de distances en fonction du nombre de clusters hiérarchiques :
 \graph{distance_predicted_clusters}{Distance entre clusters en fonction du nombre de clusters demandé (clustering hiérarchique sur les attributs choisis)}
 Ce diagramme nous inciterait à chosir 4 clusters plutôt que les 5 choisis plus haut pour l'indice de liberté. Cependant, il ne permet pas de se prononcer sur l'adéquation des données aux classes de liberté.
@@ -189,6 +180,9 @@ En étudiant sur les jeux d'attributs \og acceptables à la limite \fg vus plus 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Le principe est cette fois de réaliser un arbre décisionnel qui synthétisera la relation entre classe de liberté et les autres attributs. Compte tenus des résultat obtenus en classification non supervisée, il est probable que cette tentative n'aboutisse pas.
 
+\graph{classification_non_supervisee}{Structure des noeuds réalisant la classification supervisée dans \textsc{knime}}
+
+On obtient les statistiques d'erreurs suivantes.
 \begin{figure}[H]
 	\centering
 	\subfloat[J48]{\includegraphics[width=0.3\textwidth]{errors_j48}}
