@@ -22,16 +22,24 @@
 <entry key="memory" type="xboolean" value="true"/>
 <entry key="measures" type="xboolean" value="true"/>
 </config>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 57, Cols: 14"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.cluster.PMMLClusterPortObject"/>
+<entry key="port_object_summary" type="xstring" value="ClusteringModel with 5 cluster: cluster_0, cluster_1, cluster_2, cluster_3, cluster_4"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 </config>

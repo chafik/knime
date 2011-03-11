@@ -12,7 +12,12 @@
 -En fonction des résultats ou bien 
 - "Lien entre liberté civile et données démographique, santé, armée, économie, sociale..."?
 - Ensuite chercher à trouver (générer) les indices de liberté à partir des résultats (liens, modèles) établis
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Détermination du champ d'étude}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Identification des attributs pertinents}
 Blabla plus interessant
 Cette partie tentera de justifier les choix d'attributs pour leur rapport \emph{possible} avec la liberté civile des peuples.
@@ -103,12 +108,10 @@ Une dictature militaire, exporterait peu mais importerait de manière importante
 Au vu des précédentes hypothèses, on pourrait s'attendre à une faible valeur ajoutée industrielle pour une dictature militaire. 
 \item [Inflation, GDP deflator] 
 On suppose que l'inflation est fortement lié à l'indice de liberté si bien qu'une dictature militaire connaitrait une inflation très importante.
-
 \item [Time required to start a business (days)]
 Un indice de liberté bas représente un obstacle aux jeunes entrepreneurs. Aussi, on s'attend à trouver des temps relativement hauts afin de démarrer une nouvelle entreprise. 
 \item [Workers remittances and compensation of employees]
 Reflet direct du niveau de vie des habitants, cet attribut serait dépendant de l'indice de liberté et s'illustrerait par des salaires et des primes très bas au sein d'une dictature militaire.
-
 \end{description}
 
 \graph{correlation_economie}{Corrélation linéaire des différents attributs choisis dans la catégorie \emph{Economie}}
@@ -116,7 +119,9 @@ Cette matrice montre l'importance de la purification des attributs, qui aboutit 
 \graph{correlation_economie_2}{Corrélation linéaire des différents attributs conservés dans la catégorie \emph{Economie}}
 
 \subsubsection{Bilan des choix d'attributs}
-Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acceptables --- à la limite. Deux jeux ont dû être éliminés faute d'attributs non corrélés en assez grand nombre. Ces données étant quelque peu limitées, nous tenterons également d'utiliser un jeu d'attributs de sémantique hétérogène : constitué du résultat de la PCA de chaque jeu d'attributs, il nous permettra de tenter une autre approche.
+Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acceptables --- à la limite. Deux jeux ont dû être éliminés faute d'attributs non corrélés en assez grand nombre. Ces données étant quelque peu limitées, nous tenterons d'utiliser un jeu d'attributs de sémantique hétérogène : constitué du résultat de la PCA de chaque jeu d'attributs, il nous permettra de tenter une autre approche : on essaiera de déterminer les pays libres socialement (ou non) en se basant sur les indices produits par les PCA dans différents domaines : \og social \fg, \og santé \fg, \og armée \fg, \og démographie \fg et \og économie \fg.
+
+\graph{choix_attributs_PCA}{Méthode de construction de l'ensemble d'attributs final}
 
 \subsection{Introduction d'un nouvel attribut}
 {\huge TODO}
@@ -129,7 +134,6 @@ En procédant tout d'abord à une analyse sur chaque dimension, on élimine tout
 \graph{outliers_PCA_hilite_1D}{Choix des outliers selon chacune des dimensions obtenues au terme de la PCA}
 La tentative d'éliminer plus d'outliers via une analyse en deux dimensions échoue, puisque tous les outliers visibles ont déjà été détectés grâce à l'analyse 1D.
 \graph{outliers_PCA_avant_2D}{Choix des outliers selon chaque couple parmis les dimensions obtenues au terme de la PCA}
-{\huge TODO : outliers autres jeux d'attributs}
 
 \subsection{Discrétisation de la dimension \og liberté \fg}
 On tente ici de mettre en place un attribut de \og classe \fg, un libellé déterminé par l'indice de liberté. Dans un premier temps, il faut déterminer le nombre de classes à créer. Le noeud \og Hierarchical clustering \fg nous y aide : un optimum de 5 clusters se lit directement sur le graphe suivant.
@@ -144,12 +148,15 @@ On utilise le même noeud pour nous fournir ces classes. Ceci fait, nous pouvons
 \section{Classification non supervisée}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
--K-Means (ne pas oublier de parler de la stabilité)
-
-
-
+On tente ensuite de réaliser trois types de clusterings différents sur les attributs choisis. Ceci en espérant que ces clusters correspondront aux classes de liberté, ce qui est mesuré grâce au noeud \og Entropy Scorer \fg.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{entropy_hierarchical}
+	\includegraphics[width=0.3\textwidth]{entropy_fuzzycmeans}
+	\includegraphics[width=0.3\textwidth]{entropy_kmeans}
+	\caption{Mesure de l'entropie des différents clusterings avec les classes de références}
+\end{figure}
+C'est un échec. L'entropie est clairement énorme et nous montre que le jeu d'attributs choisi ne constitue pas une base intéressante pour déterminer l'indice de liberté : son clustering n'aboutit à rien de semblable aux classes de liberté. En procédant sur les jeux d'attributs \og acceptables à la limite \fg vus plus haut (\emph{Social}, \emph{Armée} et \emph{Economie}), on aboutit au même type de résultats.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
