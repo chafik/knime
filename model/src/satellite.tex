@@ -25,7 +25,11 @@ On s'intéressera par la suite à retrouver cet indice de liberté à partir d'u
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Identification des attributs pertinents}
+
 Cette partie tentera de justifier les choix d'attributs pour leur rapport \emph{possible} avec la liberté civile des peuples.
+Dans un premier temps, nous commencerons par constituer des groupes d'attributs sous forme de catégories (social, santé, armée, démographie, économie) en justifiant ce choix d'attributs à l'aide de leurs eventuels liens avec la liberté civile des peuples.
+Après quoi, nous passerons à l'étude des corrélations des differents attributs d'un même groupe pour finalement aboutir au choix définitif.
+
 \subsubsection{Social}
 \begin{description}
 \item [Adolescent fertility rate] 
@@ -129,10 +133,14 @@ Au terme de cette étude des colonnes, nous disposons de 3 jeux d'attributs acce
 
 \subsection{Introduction d'un nouvel attribut}
 
-{\huge TODO}
-Notre démarche étant d'étudier le jeu de données fourni associé à l'introduction d'un nouvel attribut qui est l'indice de liberté, nous avons choisi comme source d'un tel indicateur le site internet \og http://perspective.usherbrooke.ca/ \fg qui fourni par pays et par année un indice compris entre 0 et 7 (7 représentant une liberté civile quasi inexistante)
--Blabla site internet, organisation
--Pb : absence données sous forme de fichiers exploitable directement (cvs) d'ou le script (merci yoyo)
+
+Notre démarche étant d'étudier le jeu de données fourni associé à l'introduction d'un nouvel attribut qui est l'indice de liberté, nous avons choisi comme source d'un tel indicateur le site internet \url{http://perspective.usherbrooke.ca/} qui fourni par pays et par année un indice compris entre 1 et 7 (7 représentant une liberté civile quasi inexistante).
+
+L'organisation ayant recueilli ces information est FreedomHouse et le site les mettant à notre disposition est celui de l'université de Sherbrooke.
+
+Le site internet cité précédemment ne nous fournit pas les données directement exploitables sous Knime. Les informations sont disponibles sous forme de tableaux représentés sur des pages web. Aussi, nous avons réalisé un script en bash qui permet d'extraire du site l'indice de liberté civile des pays présents dans notre jeu de données et de l'integrer à ce dernier. Il suffira ensuite de corriger les entrées erronées et inexistantes.
+
+\addCode{../../countries2007/get_liberty_indice.sh}{bash}
 
 \subsection{Elimination des outliers}
 En procédant tout d'abord à une analyse sur chaque dimension, on élimine tout d'abord les premiers et derniers déciles dans chacune d'elles.
