@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.27)  10 MAR 2011 21:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.27)  10 MAR 2011 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,13 +854,10 @@ Overfull \hbox (12.79999pt too wide) in paragraph at lines 23--23
 \openout4 = `main.toc'.
 
 
-(./satellite.tex <correlation_social.png, id=96, 556.0775pt x 453.695pt>
-File: correlation_social.png Graphic file (type png)
-
-<use correlation_social.png>
-<insa-couleur.jpg, id=97, 425.4294pt x 227.6505pt>
+(./satellite.tex <insa-couleur.jpg, id=96, 425.4294pt x 227.6505pt>
 File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg>
+
+<use insa-couleur.jpg>
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 26.91588pt.
@@ -870,57 +867,65 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [2
 
  <./insa-couleur.jpg>]
-Overfull \hbox (2.58517pt too wide) in paragraph at lines 35--37
+Overfull \hbox (6.41585pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/20.74 Je ne sais pas ce que
+ []
+
+<correlation_social.png, id=108, 556.0775pt x 453.695pt>
+File: correlation_social.png Graphic file (type png)
+
+<use correlation_social.png>
+Overfull \hbox (2.58517pt too wide) in paragraph at lines 36--38
 []\OT1/cmr/m/n/10.95 Les at-tributs ayant trait aux nou-velles tech-nolo-gies d
 e l'in-for-ma-tion sont lin^^Seairement corr^^Sel^^Ses,
  []
 
 
-Overfull \hbox (18.5487pt too wide) in paragraph at lines 41--43
+Overfull \hbox (18.5487pt too wide) in paragraph at lines 42--44
 []\OT1/cmr/m/n/10.95 Cet at-tribut est ^^Setroitement li^^Se aux im-pacts de la
  lib-ert^^Se sur les as-pects ^^Seconomiques
  []
 
-<../pics/correlation_sante.png, id=108, 556.0775pt x 453.695pt>
+File: insa-couleur.jpg Graphic file (type jpg)
+<use insa-couleur.jpg> [3 <./correlation_social.png (PNG copy)>]
+<../pics/correlation_sante.png, id=117, 556.0775pt x 453.695pt>
 File: ../pics/correlation_sante.png Graphic file (type png)
 
 <use ../pics/correlation_sante.png>
 File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [3 <./correlation_social.png (PNG copy)>]
-<../pics/correlation_armee.png, id=117, 556.0775pt x 453.695pt>
+ <use insa-couleur.jpg> [4 <../pics/correlation_sante.png (PNG copy)>]
+<../pics/correlation_armee.png, id=124, 556.0775pt x 453.695pt>
 File: ../pics/correlation_armee.png Graphic file (type png)
 
 <use ../pics/correlation_armee.png>
 File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [4 <../pics/correlation_sante.png (PNG copy)>]
-<../pics/correlation_demographie.png, id=124, 556.0775pt x 453.695pt>
+ <use insa-couleur.jpg> [5 <../pics/correlation_armee.png (PNG copy)>]
+<../pics/correlation_demographie.png, id=131, 556.0775pt x 453.695pt>
 File: ../pics/correlation_demographie.png Graphic file (type png)
 
 <use ../pics/correlation_demographie.png>
-File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [5 <../pics/correlation_armee.png (PNG copy)>]
-Overfull \hbox (24.63849pt too wide) in paragraph at lines 90--91
+Overfull \hbox (24.63849pt too wide) in paragraph at lines 91--92
 []\OT1/cmr/m/n/10.95 Comme dans le do-maine de la sant^^Se, les at-tributs sont
  corr^^Sel^^Ses dans des pro-por-tions d^^Seraisonnables.
  []
 
 File: insa-couleur.jpg Graphic file (type jpg)
 <use insa-couleur.jpg> [6 <../pics/correlation_demographie.png (PNG copy)>]
-<../pics/correlation_economie.png, id=137, 1284.8pt x 957.5775pt>
+<../pics/correlation_economie.png, id=138, 1284.8pt x 957.5775pt>
 File: ../pics/correlation_economie.png Graphic file (type png)
 
 <use ../pics/correlation_economie.png>
-<../pics/correlation_economie_2.png, id=138, 556.0775pt x 453.695pt>
+<../pics/correlation_economie_2.png, id=139, 556.0775pt x 453.695pt>
 File: ../pics/correlation_economie_2.png Graphic file (type png)
 
 <use ../pics/correlation_economie_2.png>
 File: insa-couleur.jpg Graphic file (type jpg)
  <use insa-couleur.jpg> [7 <../pics/correlation_economie.png (PNG copy)>]
-<../pics/outliers_PCA_avant_1D.png, id=146, 1284.8pt x 957.5775pt>
+<../pics/outliers_PCA_avant_1D.png, id=147, 1284.8pt x 957.5775pt>
 File: ../pics/outliers_PCA_avant_1D.png Graphic file (type png)
 
 <use ../pics/outliers_PCA_avant_1D.png>
-<../pics/outliers_PCA_hilite_1D.png, id=147, 1284.8pt x 957.5775pt>
+<../pics/outliers_PCA_hilite_1D.png, id=148, 1284.8pt x 957.5775pt>
 File: ../pics/outliers_PCA_hilite_1D.png Graphic file (type png)
 
 <use ../pics/outliers_PCA_hilite_1D.png>
@@ -928,37 +933,49 @@ File: insa-couleur.jpg Graphic file (type jpg)
  <use insa-couleur.jpg> [8 <../pics/correlation_economie_2.png (PNG copy)>]
 File: insa-couleur.jpg Graphic file (type jpg)
  <use insa-couleur.jpg> [9 <../pics/outliers_PCA_avant_1D.png (PNG copy)>]
-<../pics/outliers_PCA_avant_2D.png, id=160, 1284.8pt x 957.5775pt>
+<../pics/outliers_PCA_avant_2D.png, id=161, 1284.8pt x 957.5775pt>
 File: ../pics/outliers_PCA_avant_2D.png Graphic file (type png)
 
 <use ../pics/outliers_PCA_avant_2D.png>
 File: insa-couleur.jpg Graphic file (type jpg)
- <use insa-couleur.jpg> [10 <../pics/outliers_PCA_hilite_1D.png (PNG copy)>]) A
-ED: lastpage setting LastPage
-File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [10 <../pics/outliers_PCA_hilite_1D.png (PNG copy)>]
+<../pics/distance_liberty_clusters.png, id=168, 1284.8pt x 957.5775pt>
+File: ../pics/distance_liberty_clusters.png Graphic file (type png)
 
-<use insa-couleur.jpg> [11 <../pics/outliers_PCA_avant_2D.png (PNG copy)>]
-(./main.aux) ) 
+<use ../pics/distance_liberty_clusters.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [11 <../pics/outliers_PCA_avant_2D.png (PNG copy)>]
+<../pics/hierarchical_liberty_clusters.png, id=175, 1284.8pt x 957.5775pt>
+File: ../pics/hierarchical_liberty_clusters.png Graphic file (type png)
+
+<use ../pics/hierarchical_liberty_clusters.png>
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [12 <../pics/distance_liberty_clusters.png (PNG copy)>]
+)
+AED: lastpage setting LastPage
+File: insa-couleur.jpg Graphic file (type jpg)
+ <use insa-couleur.jpg> [13 <../pics/hierarchical_liberty_clusters.png (PNG cop
+y)>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8765 strings out of 495061
- 122162 string characters out of 1182621
- 213399 words of memory out of 3000000
- 11725 multiletter control sequences out of 15000+50000
+ 8779 strings out of 495061
+ 122606 string characters out of 1182621
+ 214399 words of memory out of 3000000
+ 11733 multiletter control sequences out of 15000+50000
  16399 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 43i,16n,43p,481b,416s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share
-/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fo
-nts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (11 pages, 500516 bytes).
+ 43i,16n,43p,481b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texli
+ve/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (13 pages, 552658 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
